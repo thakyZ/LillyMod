@@ -1,0 +1,22 @@
+{
+	"projectileName": "voidswoosh",
+	"frames": "voidswoosh.png",
+	"animationCycle": 0.045,
+	"frameNumber": 3,
+	"speed": 0,
+	"orientationLocked": true,
+	"damagePoly": [ [-40, 24.5], [3.5, 24.5], [15.5, 21.5], [28.5, 15.5], [36.5, 7.5], [40.5, -1.5], [40.5, -12.5], [32.5, -24.5], [-12, -24.5] ],
+	"animationLoops": false,
+	"piercing": true,
+	"bounces": -1,
+	"flippable": true,
+	"emitters" : [ "largevoidswoosh" ],
+	"statusEffects":
+	[
+		"damagefreeze"
+	],
+	"damageKind": "2hsword",
+	"lightColor" : [238, 238, 238],
+	"knockback": 35,
+	"knockbackDirectional": true
+}

@@ -1,0 +1,63 @@
+{
+  "verticalOrigin" : -15,
+
+  "layers" : [
+    {
+      "kind" : "divider/dirt",
+      "offset" : [0, 200],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/dirt",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 125,
+      "parallax" : 1.2
+    },
+
+    {
+      "kind" : "tentacles",
+      "offset" : [0, 100],
+      "parallax" : 24,
+      "fadePercent" : 0.0
+    },
+    {
+      "kind" : "tentacletakeover",
+      "offset" : [0, 530],
+      "parallax" : 5.0,
+      "directives" : "?brightness=5?saturation=-4",
+      "fadePercent" : 0.0
+    },
+	{
+      "kind" : "tentacletakeover",
+      "offset" : [3, 530],
+      "parallax" : 6.0,
+      "directives" : "?brightness=5?saturation=-4",
+      "fadePercent" : 0.0
+    },
+	{
+      "kind" : "tentacletakeover",
+      "offset" : [2, 530],
+      "parallax" : 7.0,
+      "directives" : "?brightness=5?saturation=-4",
+      "fadePercent" : 0.0
+    },
+	{
+      "kind" : "tentacletakeover",
+      "offset" : [0, 530],
+      "parallax" : 8.0,
+      "directives" : "?brightness=5?saturation=-4",
+      "fadePercent" : 0.0
+    },
+	{
+      "kind" : "tentacletakeover",
+      "offset" : [5, 530],
+      "parallax" : 9.0,
+      "directives" : "?brightness=5?saturation=-4",
+      "fadePercent" : 0.0
+    }
+  ]
+}

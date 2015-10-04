@@ -1,0 +1,9 @@
+{
+	"input":
+	[
+		{ "item": "steelbar", "count": 10 },
+		{ "item": "circuitboard", "count": 3 }
+	],
+	"output": { "item" : "humanshipdoor", "count": 1 },
+	"groups": [ "ironcraftingtable", "objects", "all" ]
+}

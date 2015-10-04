@@ -1,0 +1,69 @@
+{
+	"objectName": "healthpod",
+	"rarity": "legendary",
+	"description": "A bed in a shape of a health pod.",
+	"shortdescription": "Lilly Co. Health Pod",
+	"race": "generic",
+	"category": "furniture",
+	"price": 1500,
+	"printable": false,
+
+	"apexDescription": "For testing.",
+	"avianDescription": "For testing.",
+	"floranDescription": "For testing.",
+	"glitchDescription": "For testing.",
+	"humanDescription": "For testing.",
+	"hylotlDescription": "For testing.",
+
+	"lightColor": [40, 135, 130],
+
+	"objectType": "loungeable",
+	"sitFlipDirection": true,
+	
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitCoverImage": "/objects/lilly/healthpod/healthpodcover.png",
+	"sitEmote": "sleep",
+	
+	"sitStatusEffects":
+	[
+		"regeneration4",
+		"nude"
+	],
+	
+	"sitEffectEmitters": [ "sleepbubbles" ],
+	"inventoryIcon": "healthpodicon.png",
+	
+	"orientations":
+	[
+		{
+			"imageLayers": [ { "image": "healthpod.png:<color>" } ],
+			"flipImages": true,
+			"imagePosition": [-16, 0],
+			"frames": 1,
+			"animationCycle": 1.0,
+
+			"lightPosition": [0, 0],
+
+			"sitPosition": [0, 30],
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"direction": "left"
+		},
+		{
+			"imageLayers": [ { "image": "healthpod.png:<color>" } ],
+			"imagePosition": [-16, 0],
+			"frames": 1,
+			"animationCycle": 1.0,
+
+			"lightPosition": [0, 0],
+
+			"sitPosition": [0, 30],
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"direction": "right"
+		}
+	]
+}

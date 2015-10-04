@@ -1,0 +1,18 @@
+[
+	{ "op": "add", "path": "/learnBlueprintsOnPickup", "value": [
+		"apexshipdoor",
+		"avianshipdoor",
+		"floranshipdoor",
+		"glitchshipdoor",
+		"humanshipdoor",
+		"hylotlshipdoor",
+		"novakidshipdoor",
+		"verticalapexshipdoor",
+		"verticalavianshipdoor",
+		"verticalfloranshipdoor",
+		"verticalglitchshipdoor",
+		"verticalhumanshipdoor",
+		"verticalhylotlshipdoor",
+		"verticalnovakidshipdoor"
+	] }
+]

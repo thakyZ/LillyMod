@@ -1,0 +1,58 @@
+{
+	"itemName": "voidexcalibur",
+	"level": 9,
+	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
+	"maxStack": 1,
+	"rarity": "legendary",
+	"description": "It feels very light, even though it can cut through anything.",
+	"shortdescription": "Void Excalibur",
+	"tooltipKind": "sword",
+	"weaponType": "Void Weapon",
+	
+	"image": "voidexcalibur.png",
+	"firePosition": [6, 4.5],
+	"fireTime": 0.5,
+	"fireAfterWindup": true,
+	"soundEffect": { "fireSound": [ { "file": "/sfx/melee/swing_twohanded.wav" } ] },
+	
+	"statusEffects" : 
+	[
+		"glow"
+	],
+	
+	"primaryStances":
+	{
+		"directional": false,
+		"projectileType": "voidswoosh",
+		
+		"projectile":
+		{
+			"power": 7.15,
+			"speed": 0.1
+		},
+		"idle":
+		{
+			"twoHanded": false,
+			"armAngle": -90,
+			"swordAngle": -110,
+			"handPosition": [0, -19.5],
+			"duration": 0.1
+		},
+		"windup":
+		{
+			"twoHanded": false,
+			"armAngle": 90,
+			"swordAngle": 90,
+			"handPosition": [0, -16.5],
+			"duration": 0.2
+		},
+		"cooldown" :
+		{
+			"twoHanded": false,
+			"armAngle": -45,
+			"swordAngle": -105,
+			"handPosition": [3, -28],
+			"duration": 0.4
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LillyMod",
+	"path": ".",
+	"version": "Beta v. Spirited Giraffe",
+	"requires": [],
+	"includes": [ "madExp_ChoosePet" ],
+	"metadata":
+	{
+		"properties":
+		{
+			"displayName": "LillyMod",
+			"author": "thakyZ",
+			"version": "0.02.7",
+			"description": "This includes items and objects from thakyZ for the mod pack LillyPak",
+			"thanks": [ "TheSidofEvil", "Dolphinowl245" ],
+			"credit": "All the thanks!!!",
+			"documentation": "http://thakyz.github.io/LillyPak-Starbound/",
+			"repository": "https://github.com/thakyZ/LillyPak-Starbound"
+		}
+	}
+}

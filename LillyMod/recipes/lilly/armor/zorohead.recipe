@@ -1,0 +1,9 @@
+{
+	"input":
+	[
+		{ "item": "zorcanbar", "count": 12 },
+		{ "item": "crystal", "count": 4 }
+	],
+	"output": { "item" : "zorohead", "count": 1 },
+	"groups": [ "separatortable", "armors", "all" ]
+}

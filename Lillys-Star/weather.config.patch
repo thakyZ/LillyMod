@@ -1,0 +1,24 @@
+[
+  
+  {
+    "op" : "add",
+    "path" : "/tentaclesms",
+    "value" : [
+    [1.000, "clear"]
+  ]
+  },
+    {
+    "op" : "add",
+    "path" : "/garden",
+    "value" : [
+    [1.000, "clear"]
+  ]
+  },
+      {
+    "op" : "add",
+    "path" : "/gardenflat",
+    "value" : [
+    [1.000, "clear"]
+  ]
+  }
+]

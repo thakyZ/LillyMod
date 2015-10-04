@@ -1,41 +1,40 @@
-# Compiled Lua sources
-luac.out
+## Basic files to ignore
+*.exe
+*.txt
+*.pdn
+*.jpg
+*.jpeg
+*.gif
+*.apng
+*.agif
+*.bat
 
-# luarocks build files
-*.src.rock
+# Folders to ignore
+
+## Compressed Folders
 *.zip
+*.rar
+*.7z
+*.tar
 *.tar.gz
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+## Windows hidden files.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+.DS_Store
+*.lnk
+._*
+$RECYCLE.BIN/
+.AppleDB
+.Spotlight-V100
+.Trashes
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+_MACOSX

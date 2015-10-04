@@ -1,0 +1,11 @@
+[
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "healthpod" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "lilly_house" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "blueflower" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "redflower" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "yellowflower" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "springflower" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "paintinglilly" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "lillyemblem" } },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "lillyemblembig" } }
+]

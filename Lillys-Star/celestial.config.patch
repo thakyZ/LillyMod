@@ -1,0 +1,100 @@
+[
+  {
+    "op" : "add",
+    "path" : "/systemTypes/Purple",
+    "value" : {
+      "selectionWeight" : 1.0,
+      "baseParameters" : {
+        "typeName" : "purplestar",
+        "image" : "/celestial/system/purplestar.png",
+        "twinkleTime" : [1.0, 1.5]
+      },
+      "variationParameters" : [
+        {
+          "magnitude" : 3,
+          "description" : "Small Purple Star",
+          "imageScale" : 0.04,
+          "twinkleFrames" : "/celestial/stars/star7pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star7px.png",
+          "brightness" : [1, 1]
+        },
+        {
+          "magnitude" : 5,
+          "description" : "Medium Purple Star",
+          "imageScale" : 0.055,
+          "twinkleFrames" : "/celestial/stars/star13pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star13px.png",
+          "brightness" : [1, 1]
+        },
+        {
+          "magnitude" : 7,
+          "description" : "Large Purple Star",
+          "imageScale" : 0.075,
+          "twinkleFrames" : "/celestial/stars/star17pxPurple.png",
+          "twinkleBackground" : "/celestial/stars/backgrounds/star17px.png",
+          "brightness" : [1, 1]
+        }
+      ],
+      "orbitRegions" : [
+        {
+          "regionName" : "TierMS",
+          "orbitRange" : [2, 10],
+          "bodyProbability" : 0.5,
+          "planetaryTypes" : [
+            {"weight" : 0.8, "item" : "TierMS"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.9, "item" : "TierMS"}
+          ]
+        },
+        {
+          "regionName" : "Gate",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ],
+          "satelliteTypes" : []
+        }
+      ]
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/TierMS",
+    "value" : {
+      "satelliteProbability" : 0.15,
+      "maxSatelliteCount" : 2,
+
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Tier MS Planet",
+        "smallImage" : "/celestial/system/planet_small.png",
+        "shadowNumber" : [1, 9],
+
+        "liquidImages" : "/celestial/system/terrestrial/liquids/<liquid>.png",
+        "shadowImages" : "/celestial/system/terrestrial/shadows/<num>.png",
+        "biomeMaskImages" : "/celestial/system/terrestrial/biomes/<biome>/maskie<num>.png",
+        "biomeMasks" : 3,
+        "dynamicsImages" : "/celestial/system/terrestrial/dynamics/<num>.png",
+        "dynamicsRange" : [1, 65],
+
+        "terrestrialType" : [ "tentaclesms", "gardenflat" ]
+      },
+
+      "variationParameters" : [
+        {
+          "imageScale" : 0.125,
+          "smallImageScale" : 0.5,
+          "worldSize" : "medium"
+        },
+        {
+          "imageScale" : 0.15,
+          "smallImageScale" : 0.6,
+          "worldSize" : "large"
+        }
+      ]
+    }
+  }
+]

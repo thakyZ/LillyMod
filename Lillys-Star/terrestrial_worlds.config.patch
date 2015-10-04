@@ -1,0 +1,107 @@
+[
+  {
+    "op" : "add",
+    "path" : "/planetTypes/tentaclesms",
+    "value" : {
+      "threatRange" : [1, 1],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "tentaclesms" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "cellcaves", "fleshcaves", "slimecaves" ]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/gardenflat",
+    "value" : {
+      "threatRange" : [1, 1],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "gardenflat" ]
+        },
+        "underground1" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        },
+        "underground2" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        },
+        "underground3" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        },
+        "underground4" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        },
+        "underground5" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        },
+        "underground6" : {
+          "secondaryRegion" : [ "cellcaves" ]
+        }
+      }
+    }
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/regionTypes/tentaclesms",
+    "value" : {
+      "caveLiquid" : [ "tentaclejuice" ],
+      "blockSelector" : [ "lowHillsSurface"],
+      "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "tentaclesms" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/gardenflat",
+    "value" : {
+      "caveLiquid" : [ "water" ],
+      "blockSelector" : [ "flatsSurface"],
+	  "fgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "gardenflat" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/fleshms",
+    "value" : {
+      "blockSelector" : [ "lowHillsSurface", "medHillsSurface", "ledgesSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "biome" : [
+        [0, [ "flesh" ]]
+      ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/slimecavesms",
+    "value" : {
+      "biome" : [
+        [0, [ "slimecaves" ]]
+      ]
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+	"objectName": "lilly_house",
+	"rarity": "Common",
+	"printable": false,
+	"category": "storage",
+	"price": 500,
+	"description": "Just big enough for a small animal to fit comfortably inside",
+	"shortdescription": "Lilly's house",
+	"race": "generic",
+
+	"inventoryIcon": "lilly_house_icon.png",
+	"scripts":
+	[
+		"/objects/spawner/shipPetSpawner.lua"
+	],
+	"scriptDelta": 20,
+	"shipPetType": "lilly",
+	
+	"orientations": [
+    {
+		"image": "lilly_house.png",
+		"imagePosition": [-8, 0],
+		"direction": "left",
+		"flipImages": true,
+
+		"spaces": [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+		"anchors": [ "bottom" ]
+    },
+    {
+		"image": "lilly_house.png",
+		"imagePosition": [-8, 0],
+		"direction": "right",
+
+		"spaces": [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+		"anchors": [ "bottom" ]
+    }
+  ]
+}

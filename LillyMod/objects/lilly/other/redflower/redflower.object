@@ -1,0 +1,36 @@
+{
+  "objectName" : "redflower",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 1200,
+  "printable": false,
+
+  "description" : "Small easily broken flower.",
+  "shortdescription" : "Red Flower",
+  "race" : "generic",
+
+  "inventoryIcon" : "redflowericon.png",
+  "orientations" : [
+    {
+      "image" : "redflower.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "redflower.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

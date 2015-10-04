@@ -1,0 +1,112 @@
+{
+  "panels" : [
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/respawn/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 500,
+          "alpha" : 0,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 500,
+          "alpha" : 1,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 3,
+          "zoom" : 500,
+          "alpha" : 1,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 3.3,
+          "zoom" : 500,
+          "alpha" : 0,
+          "position" : [480, 270]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/respawn/spotlight.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 2,
+          "alpha" : 0,
+          "position" : [479, 208]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 2,
+          "alpha" : 1,
+          "position" : [479, 208]
+        },
+        {
+          "timecode" : 3,
+          "zoom" : 2,
+          "alpha" : 1,
+          "position" : [479, 208]
+        },
+        {
+          "timecode" : 3.0,
+          "zoom" : 2,
+          "alpha" : 0,
+          "position" : [479, 208]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/repair/bunnyRepair.png:{frame}"
+        }
+      ],
+      "animationFrames" : 8,
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 2,
+          "alpha" : 0,
+          "frame" : 0,
+          "position" : [480, 240]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 2,
+          "alpha" : 1,
+          "frame" : 0,
+          "position" : [480, 240]
+        },
+        {
+          "timecode" : 3,
+          "alpha" : 1,
+          "zoom" : 4,
+          "frame" : 35
+        },
+        {
+          "timecode" : 3.3,
+          "alpha" : 1,
+          "zoom" : 0,
+          "frame" : 35
+        }
+      ]
+    }
+  ],
+  "audio" : [
+    {
+      "timecode" : 0.01,
+      "resource" : "/sfx/interface/ship_upgrading.wav"
+    }
+  ]
+}

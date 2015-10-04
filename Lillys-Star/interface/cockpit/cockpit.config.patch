@@ -1,0 +1,22 @@
+[
+  {
+    "op" : "add",
+    "path" : "/starmapTypeColor/purplestar",
+    "value" : [185, 65, 215, 255]
+  },
+  {
+    "op" : "add",
+    "path" : "/starmapTypeDescription/purplestar",
+    "value" : "Lily's Star"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/tentaclesms",
+    "value" : "Planet is overtaken by massive tentacles."
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeToDescription/gardenflat",
+    "value" : "Flat world for building massive structures."
+  }
+]

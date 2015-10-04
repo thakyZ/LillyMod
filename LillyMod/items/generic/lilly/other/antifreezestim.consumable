@@ -1,0 +1,17 @@
+{
+	"itemName": "antifreezestim",
+	"rarity": "Rare",
+	"price": 250,
+	"inventoryIcon": "antifreezestim.png",
+	"description": "A stimpack full of anti freeze",
+	"shortdescription": "Anti Freeze Stim Pack",
+	"handPosition": [8, 0],
+	
+	"effects":
+	[
+		[ { "effect": "antifreeze", "duration": 1 } ]
+	],
+	
+	"emote": "",
+	"emitters": [ "stimuse" ]
+}

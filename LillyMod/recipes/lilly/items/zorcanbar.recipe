@@ -1,0 +1,11 @@
+{
+	"input":
+	[
+		{ "item": "imperviumcompound", "count": 2 },
+		{ "item": "ceruliumcompound", "count": 2 },
+		{ "item": "feroziumcompound", "count": 2 },
+		{ "item": "solariumstar", "count": 6 }
+	],
+	"output": { "item" : "zorcanbar", "count": 1 },
+	"groups": [ "scififurnace", "all" ]
+}
