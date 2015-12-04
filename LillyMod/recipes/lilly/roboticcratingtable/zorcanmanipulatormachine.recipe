@@ -1,0 +1,10 @@
+{
+	"input":
+	[
+		{ "item": "scifianvil", "count": 1 },
+		{ "item": "durasteelbar", "count": 10 },
+		{ "item": "zorcancrystal", "count": 20 }
+	],
+	"output": { "item": "zorcanmanipulatormachine", "count": 1 },
+	"groups": [ "roboticcraftingtable", "objects", "tools", "all" ]
+}

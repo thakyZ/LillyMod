@@ -1,9 +1,0 @@
-{
-	"input":
-	[
-		{ "item": "steelbar", "count": 10 },
-		{ "item": "circuitboard", "count": 3 }
-	],
-	"output": { "item" : "verticalapexshipdoor", "count": 1 },
-	"groups": [ "ironcraftingtable", "objects", "all" ]
-}

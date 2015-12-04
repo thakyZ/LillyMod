@@ -1,41 +1,30 @@
 {
 	"itemName": "zorokineptichead",
+	"price": 675,
 	"inventoryIcon": "icons.png:head",
-	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
 	"maxStack": 1,
 	"rarity": "Legendary",
 	"description": "Focus the energy released from your own metabolism; siphon it to maximum effect.",
-	"shortdescription": "Zorcanian Lens",
+	"shortdescription": "Zorcanian Kineptic Lens",
 	"tooltipKind": "armor",
-	"maleFrames" : "head.png",
-	"femaleFrames" : "head.png",
-	"mask" : "mask.png",
+
+	"itemTags": [ "zorabianarmor" ],
+	
+	"maleFrames": "head.png",
+	"femaleFrames": "head.png",
+	"mask": "mask.png",
+	
 	"statusEffects":
 	[
-		{
-			"stat": "protection",
-			"amount": 111
-		},
-		{
-			"stat": "maxEnergy",
-			"amount": 266
-		},
-		{
-			"stat": "maxHealth",
-			"amount": 78
-		},
-		{
-			"stat": "madtulip_vacuum_head_immunity",
-			"amount": 1
-		}
+		{ "stat": "protection", "amount": 111 },
+		{ "stat": "maxEnergy", "amount": 266 },
+		{ "stat": "maxHealth", "amount": 78 },
+		{ "stat": "madtulip_vacuum_head_immunity", "amount": 1 }
 	],
+	
 	"colorOptions":
 	[
-		{
-			"ffca8a": "BCA1FF",
-			"e0975c": "8B5DFF",
-			"a85636": "7B47FF",
-			"6f2919": "4600F8"
-		}
+		/* GHOST WHITE */
+		{ "ffca8a": "c7c7c7", "e0975c": "bcbcbc", "a85636": "999999", "6f2919": "636363", "45d297": "ff0000", "1b8d78": "9B0000", "1c3b42": "660000" }
 	]
 }

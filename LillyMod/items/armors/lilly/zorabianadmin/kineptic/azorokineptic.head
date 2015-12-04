@@ -1,0 +1,31 @@
+{
+	"itemName": "azorokineptichead",
+	"price": 0,
+	"inventoryIcon": "icons.png:head",
+	"maxStack": 1,
+	"rarity": "Legendary",
+	"description": "Focus the energy released from your own metabolism; siphon it to maximum effect.",
+	"shortdescription": "^red;Admin ^white;Zorcanian Kineptic Lens",
+	"tooltipKind": "armor",
+
+	"itemTags": [ "adminzorabianarmor" ],
+	
+	"maleFrames": "head.png",
+	"femaleFrames": "head.png",
+	"mask": "mask.png",
+	
+	"statusEffects":
+	[
+		{ "stat": "protection", "amount": 11100 },
+		{ "stat": "maxEnergy", "amount": 26600 },
+		{ "stat": "maxHealth", "amount": 7800 },
+		{ "stat": "madtulip_vacuum_head_immunity", "amount": 1 },
+		"glow"
+	],
+	
+	"colorOptions":
+	[
+		/* GHOST WHITE */
+		{ "ffca8a": "c7c7c7", "e0975c": "bcbcbc", "a85636": "999999", "6f2919": "636363", "45d297": "ff0000", "1b8d78": "9B0000", "1c3b42": "660000" }
+	]
+}
