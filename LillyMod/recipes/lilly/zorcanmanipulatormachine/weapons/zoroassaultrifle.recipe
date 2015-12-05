@@ -1,0 +1,8 @@
+{
+	"input":
+	[
+		{ "item": "zorcancrystal", "count": 10 }
+	],
+	"output": { "item" : "zoroassaultrifle", "count": 1 },
+	"groups": [ "zorcanmanipulatormachine", "weapons", "all", "zorabain" ]
+}

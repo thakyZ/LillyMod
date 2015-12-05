@@ -1,0 +1,68 @@
+{
+	"objectName": "zorcanmanipulatormachine",
+	"colonyTags": [ "crafting","electronic" ],
+	"rarity": "Legendary",
+	"interactAction": "OpenCraftingInterface",
+	"interactData":
+	{
+		"config": "/interface/windowconfig/crafting.config",
+		"paneLayoutOverride":
+		{
+			"windowtitle":
+			{
+				"title": "  ZORCAN MANIPULATOR MACHINE",
+				"subtitle": "  Raw power at your fingertips!",
+				"icon":
+				{
+					"file" : "/interface/crafting/zorcanmanipulatormachine.png"
+				}
+			}
+		},
+		"filter" : [ "zorcanmanipulatormachine", "manipulatortable", "acceleratortable", "anvil", "metalworkstation", "separatortable" ]
+	},
+	"printable": false,
+	"description": "Craft a range of weapons of immense power and armor with deep energy reserves.",
+	"shortdescription": "^orange;Zorcanian Manipulator Machine^white;",
+	"race": "generic",
+	"category": "crafting",
+	"price": 900,
+  
+	"lightColor": [56, 0, 90],
+
+	"inventoryIcon": "zorcanmanipulatormachineicon.png",
+	"orientations":
+	[
+		{
+			"imageLayers": [ { "image": "zorcanmanipulatormachine.png:<color>.<frame>", "fullbright": true }, { "image": "zorcanmanipulatormachinelit.png:<color>.<frame>" } ],
+
+			"imagePosition": [-8, 0],
+			"frames": 5,
+			"animationCycle": 1.5,
+      
+			"direction": "left",
+			"flipImages": true,
+      
+			"lightPosition": [ -1, 1],
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"collision" : "platform"
+
+		},
+		{
+			"imageLayers" : [ { "image" : "zorcanmanipulatormachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "zorcanmanipulatormachinelit.png:<color>.<frame>" } ],
+
+			"imagePosition" : [-8, 0],
+			"frames" : 5,
+			"animationCycle" : 1.5,
+      
+			"direction" : "right",
+      
+			"lightPosition" : [ 0, 1],
+
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ],
+			"collision" : "platform"
+		}
+	]
+}
