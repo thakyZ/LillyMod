@@ -10,13 +10,13 @@
 	"piercing": true,
 	"bounces": -1,
 	"flippable": true,
-	"emitters" : [ "largevoidswoosh" ],
+	"emitters": [ "largevoidswoosh" ],
 	"statusEffects":
 	[
 		"damagefreeze"
 	],
 	"damageKind": "2hsword",
-	"lightColor" : [238, 238, 238],
+	"lightColor": [238, 238, 238],
 	"knockback": 35,
 	"knockbackDirectional": true
 }

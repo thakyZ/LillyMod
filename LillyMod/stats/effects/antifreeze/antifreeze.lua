@@ -1,6 +1,6 @@
 function init()
-	status.clearEphemeralEffects()
-	status.clearAllPersistentEffects()
+  status.clearEphemeralEffects()
+  status.clearAllPersistentEffects()
 end
 
 function update(dt)

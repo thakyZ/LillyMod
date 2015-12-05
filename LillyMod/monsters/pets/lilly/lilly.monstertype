@@ -1,195 +1,226 @@
 {
-  "type" : "lilly",
-	
-  "categories" : [ "petlilly" ],
-  "parts" : [ "body" ],
+	"type": "petlilly",
 
-  "animation" : "lilly.animation",
-	
-  "dropPools" : [ ],
+	"categories": [ "petlilly" ],
+	"parts": [ "body" ],
 
-  "baseParameters" : {
-    "persistent" : true,
-    "damageTeamType" : "ghostly",
+	"animation": "/monsters/pets/cat/petcat.animation",
 
-    "scripts" : [
-      "/monsters/pets/groundPet.lua",
-      "/scripts/pathing.lua",
-      "/scripts/stateMachine.lua",
-      "/scripts/util.lua",
-      "/scripts/vec2.lua",
+	"dropPools": [ ],
 
-      "/monsters/pets/idleState.lua",
-      "/monsters/pets/wanderState.lua",
+	"baseParameters":
+	{
+		"persistent": true,
+		"damageTeamType": "ghostly",
 
-      "/monsters/pets/petBehavior.lua",
-      "/monsters/pets/actions/followAction.lua",
-      "/monsters/pets/actions/inspectAction.lua",
-      "/monsters/pets/actions/eatAction.lua",
-      "/monsters/pets/actions/sleepAction.lua",
-      "/monsters/pets/actions/begAction.lua",
-      "/monsters/pets/actions/pounceAction.lua",
-      "/monsters/pets/actions/starvingAction.lua"
-    ],
+		"scripts":
+		[
+			"/monsters/pets/groundPet.lua",
+			"/scripts/pathing.lua",
+			"/scripts/stateMachine.lua",
+			"/scripts/util.lua",
+			"/scripts/vec2.lua",
 
-    "petBehavior" : "petBehavior",
+			"/monsters/pets/idleState.lua",
+			"/monsters/pets/wanderState.lua",
 
-    "anchorName" : "humantechstation",
-    "petResources" : {
-      "sleepy" : 10,
-      "hunger" : 60,
-      "playful" : 10,
-      "curiosity" : 60
-    },
-    "petResourceDeltas" : {
-      "sleepy" : 1,
-      "hunger" : 0.5,
-      "playful" : 1,
-      "curiosity" : 1
-    },
+			"/monsters/pets/petBehavior.lua",
+			"/monsters/pets/actions/followAction.lua",
+			"/monsters/pets/actions/inspectAction.lua",
+			"/monsters/pets/actions/eatAction.lua",
+			"/monsters/pets/actions/sleepAction.lua",
+			"/monsters/pets/actions/begAction.lua",
+			"/monsters/pets/actions/pounceAction.lua",
+			"/monsters/pets/actions/starvingAction.lua"
+		],
 
-    "actionParams" : {
-      "hungerStarvingLevel" : 80, 
-      "beg" : {
-        "minScore" : 50,
-        "cooldown" : 5,
-        "distance" : 3,
-        "emoteCooldown" : 2
-      },
-      "follow" : {
-        "minScore" : 35,
-        "cooldown" : 5,
-        "curiosityDelta" : -5,
-        "boredTime" : 3
-      },
-      "inspect" : {
-        "minScore" : 20,
-        "cooldown" : 2
-      },
-      "eat" : {
-        "minScore" : 0,
-        "minHunger" : 40,
-        "cooldown" : 0,
-        "distance" : 2
-      },
-      "play" : {
-        "minScore" : 20,
-        "cooldown" : 2
-      },
-      "sleep" : {
-        "minScore" : 50,
-        "minSleepy" : 75,
-        "cooldown" : 10
-      },
-      "starving" : {
-        "minScore" : 60,
-        "cooldown" : 3
-      }
-    },
+		"petBehavior": "petBehavior",
 
-    "pathing" : {
-      "canOpenDoors" : false
-    },
+		"anchorName": "humantechstation",
+		"petResources":
+		{
+			"sleepy": 10,
+			"hunger": 60,
+			"playful": 10,
+			"curiosity": 60
+		},
+		"petResourceDeltas":
+		{
+			"sleepy": 1,
+			"hunger": 0.5,
+			"playful": 1,
+			"curiosity": 1
+		},
 
-    "metaBoundBox" : [-1.625, -2.375, 1.75, 2.0],
-    "scale" : 1.0,
+		"actionParams":
+		{
+			"hungerStarvingLevel": 80, 
+			"beg":
+			{
+				"minScore": 50,
+				"cooldown": 5,
+				"distance": 3,
+				"emoteCooldown": 2
+			},
+			"follow":
+			{
+				"minScore": 35,
+				"cooldown": 5,
+				"curiosityDelta": -5,
+				"boredTime": 3
+			},
+			"inspect":
+			{
+				"minScore": 20,
+				"cooldown": 2
+			},
+			"eat":
+			{
+				"minScore": 0,
+				"minHunger": 40,
+				"cooldown": 0,
+				"distance": 2
+			},
+			"play":
+			{
+				"minScore": 20,
+				"cooldown": 2
+			},
+			"sleep":
+			{
+				"minScore": 50,
+				"minSleepy": 75,
+				"cooldown": 10
+			},
+			"starving":
+			{
+				"minScore": 60,
+				"cooldown": 3
+			}
+		},
 
-    "querySurroundingsCooldown" : 1,
+		"pathing":
+		{
+			"canOpenDoors" : false
+		},
 
-    "wander" : {
-      "wanderTime" : [5, 10],
-      "changeDirectionTime" : [5, 10],
-      "changeDirectionWait" : [1, 3]
-    },
+		"metaBoundBox": [-1.625, -2.375, 1.75, 2.0],
+		"scale": 1.0,
 
-    "pounce" : {
-      "maxRange" : 10,
-      "minRange" : 5
-    },
+		"querySurroundingsCooldown": 1,
 
-    "idle" : {
-      "idleTime" : [4, 8],
-      "standTime" : 2
-    },
+		"wander":
+		{
+			"wanderTime": [5, 10],
+			"changeDirectionTime": [5, 10],
+			"changeDirectionWait": [1, 3]
+		},
 
-    "movementSettings" : {
-      "collisionPoly" : [ [-0.75, -0.65], [-0.4, -1], [0.4, -1], [0.75, -0.65], [0.75, 0.15], [0.4, 0.5], [-0.4, 0.5], [-0.75, 0.15] ],
+		"pounce":
+		{
+			"maxRange": 10,
+			"minRange": 5
+		},
 
-      "mass" : 1.0,
-      "walkSpeed" : 4,
-      "runSpeed" : 14,
-      "flySpeed" : 15,
-      "airForce" : 50.0
-    },
+		"idle":
+		{
+			"idleTime": [4, 8],
+			"standTime": 2
+		},
 
-    "bodyMaterialKind" : "organic",
+		"movementSettings":
+		{
+			"collisionPoly": [ [-0.75, -0.65], [-0.4, -1], [0.4, -1], [0.75, -0.65], [0.75, 0.15], [0.4, 0.5], [-0.4, 0.5], [-0.75, 0.15] ],
 
-    "knockoutTime" : 0,
-    "knockoutEffect" : "blink",
-    "deathParticles" : "deathPoof",
+			"mass": 1.0,
+			"walkSpeed": 4,
+			"runSpeed": 14,
+			"flySpeed": 15,
+			"airForce": 50.0
+		},
 
-    "touchDamage" : {
-      "poly" : [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
-      "damage" : 15,
+		"bodyMaterialKind": "organic",
 
-      "teamType" : "enemy",
-      "damageSourceKind" : "lash",
-      "statusEffects" : [ ]
-    },
+		"knockoutTime": 0,
+		"knockoutEffect": "blink",
+		"deathParticles": "deathPoof",
 
-    "dropPools" : [ "potreasure" ],
+		"touchDamage":
+		{
+			"poly": [ [-1.625, -2.375], [1.75, -2.375], [1.75, 2.0], [-1.625, 2.0] ],
+			"damage": 15,
 
-    "statusSettings" : {
-      "statusProperties" : {
-        "targetMaterialKind" : "organic"
-      },
+			"teamType": "enemy",
+			"damageSourceKind": "lash",
+			"statusEffects": [ ]
+		},
 
-      "appliesEnvironmentStatusEffects" : false,
-      "minimumLiquidStatusEffectPercentage" : 0.1,
+		"dropPools": [ "potreasure" ],
 
-      "primaryScriptSources" : [
-        "/stats/monster_primary.lua"
-      ],
-      "primaryScriptDelta" : 0,
+		"statusSettings":
+		{
+			"statusProperties":
+			{
+				"targetMaterialKind": "organic"
+			},
 
-      "stats" : {
-        "maxHealth" : {
-          "baseValue" : 72
-        },
-        "protection" : {
-          "baseValue" : 1.0
-        },
-        "healthRegen" : {
-          "baseValue" : 0.0
-        }
-      },
+			"appliesEnvironmentStatusEffects": false,
+			"minimumLiquidStatusEffectPercentage"  0.1,
 
-      "resources" : {
-        "health" : {
-          "maxStat" : "maxHealth",
-          "deltaStat" : "healthRegen",
-          "defaultPercentage" : 100
-        },
-        "sleepy" : {
-          "maxValue" : 100,
-          "defaultPercentage" : 10
-        },
-        "hunger" : {
-          "maxValue" : 100,
-          "defaultPercentage" : 10
-        },
-        "playful" : {
-          "maxValue" : 100,
-          "defaultPercentage" : 10
-        },
-        "curiosity" : {
-          "maxValue" : 100,
-          "defaultPercentage" : 10
-        }
-      }
-    },
+			"primaryScriptSources":
+			[
+				"/stats/monster_primary.lua"
+			],
+			"primaryScriptDelta": 0,
 
-    "mouthOffset" : [0, 0],
-    "feetOffset" : [0, -8]
-  }
+			"stats":
+			{
+				"maxHealth":
+				{
+					"baseValue": 72
+				},
+				"protection":
+				{
+					"baseValue" : 1.0
+				},
+				"healthRegen":
+				{
+					"baseValue" : 0.0
+				}
+			},
+
+			"resources":
+			{
+				"health":
+				{
+					"maxStat": "maxHealth",
+					"deltaStat": "healthRegen",
+					"defaultPercentage": 100
+				},
+				"sleepy":
+				{
+					"maxValue": 100,
+					"defaultPercentage": 10
+				},
+				"hunger":
+				{
+					"maxValue": 100,
+					"defaultPercentage": 10
+				},
+				"playful":
+				{
+					"maxValue": 100,
+					"defaultPercentage": 10
+				},
+				"curiosity":
+				{
+					"maxValue": 100,
+					"defaultPercentage": 10
+				}
+			}
+		},
+
+		"mouthOffset": [0, 0],
+		"feetOffset": [0, -8]
+	}
 }
