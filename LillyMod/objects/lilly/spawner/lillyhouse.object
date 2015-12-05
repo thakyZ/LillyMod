@@ -1,5 +1,6 @@
 {
 	"objectName": "lillyhouse",
+  "colonyTags" : ["misc", "petlilly", "lilly"],
 	"rarity": "Common",
 	"printable": false,
 	"category": "storage",

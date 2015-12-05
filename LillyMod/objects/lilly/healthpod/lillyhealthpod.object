@@ -1,5 +1,6 @@
 {
 	"objectName": "lillyhealthpod",
+	"colonyTags": ["misc"],
 	"rarity": "Rare",
 	"description": "A status pod that regenerates health really fast.",
 	"shortdescription": "Lilly Co. Status Pod",

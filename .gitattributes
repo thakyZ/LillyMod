@@ -15,3 +15,26 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Starbound to msysgit
+activeitem diff=astextplain
+animation diff=astextplain
+back diff=astextplain
+chest diff=astextplain
+consumable diff=astextplain
+effectsource diff=astextplain
+frames diff=astextplain
+head diff=astextplain
+item diff=astextplain
+legs diff=astextplain
+lua diff=lua
+modinfo diff=astextplain
+monsterpart diff=astextplain
+monstertype diff=astextplain
+object diff=astextplain
+particle diff=astextplain
+patch diff=astextplain
+png binary
+projectile diff=astextplain
+recipe diff=astextplain
+statuseffect diff=astextplain
