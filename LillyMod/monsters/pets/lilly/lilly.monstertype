@@ -165,7 +165,7 @@
 			},
 
 			"appliesEnvironmentStatusEffects": false,
-			"minimumLiquidStatusEffectPercentage"  0.1,
+			"minimumLiquidStatusEffectPercentage": 0.1,
 
 			"primaryScriptSources":
 			[
