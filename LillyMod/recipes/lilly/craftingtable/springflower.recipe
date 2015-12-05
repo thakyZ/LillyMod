@@ -1,0 +1,9 @@
+{
+	"input":
+	[
+		{ "item": "petalblue", "count": 3 },
+		{ "item": "petalyellow", "count": 3 }
+	],
+	"output": { "item": "springflower", "count": 1 },
+	"groups": [ "craftingtable", "objects", "all" ]
+}

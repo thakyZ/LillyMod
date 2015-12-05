@@ -1,0 +1,38 @@
+{
+	"objectName": "yellowflower",
+	"colonyTags": ["pretty"],
+	"rarity": "Common",
+	"category": "other",
+	"price": 1200,
+	"printable": false,
+
+	"description": "Small easily broken flower.",
+	"shortdescription": "Yellow Flower",
+	"race": "generic",
+
+	"inventoryIcon": "yellowflowericon.png",
+	"orientations":
+	[
+		{
+			"image": "yellowflower.png",
+			"imagePosition": [0, 0],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ]
+		},
+		{
+			"image": "yellowflower.png",
+			"imagePosition": [0, 0],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ]
+		}
+	]
+}
