@@ -1,0 +1,63 @@
+{
+	"objectName": "lillyhealthpod",
+	"colonyTags": ["misc"],
+	"rarity": "Rare",
+	"description": "A status pod that regenerates health really fast.",
+	"shortdescription": "Lilly Co. Status Pod",
+	"race": "generic",
+	"category": "furniture",
+	"price": 1500,
+	"printable": false,
+
+	"lightColor": [40, 135, 130],
+
+	"objectType": "loungeable",
+	"sitFlipDirection": true,
+	
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitCoverImage": "lillyhealthpodcover.png",
+	"sitEmote": "sleep",
+	
+	"sitStatusEffects":
+	[
+		"regeneration4",
+		"nude"
+	],
+	
+	"sitEffectEmitters": [ "sleepbubbles" ],
+	"inventoryIcon": "lillyhealthpodicon.png",
+	
+	"orientations":
+	[
+		{
+			"imageLayers": [ { "image": "lillyhealthpod.png" } ],
+			"flipImages": true,
+			"imagePosition": [-16, 0],
+			"frames": 1,
+			"animationCycle": 1.0,
+
+			"lightPosition": [0, 0],
+
+			"sitPosition": [0, 30],
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"direction": "left"
+		},
+		{
+			"imageLayers": [ { "image": "lillyhealthpod.png" } ],
+			"imagePosition": [-16, 0],
+			"frames": 1,
+			"animationCycle": 1.0,
+
+			"lightPosition": [0, 0],
+
+			"sitPosition": [0, 30],
+
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"direction": "right"
+		}
+	]
+}

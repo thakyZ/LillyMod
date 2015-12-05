@@ -1,0 +1,11 @@
+{
+	"input":
+	[
+		{ "item": "imperviumcompound", "count": 2 },
+		{ "item": "ceruliumcompound", "count": 2 },
+		{ "item": "feroziumcompound", "count": 2 },
+		{ "item": "plutoniumrod", "count": 6 }
+	],
+	"output": { "item": "zorcancrystal", "count": 1 },
+	"groups": [ "scififurnace", "all", "item", "zorabian" ]
+}
