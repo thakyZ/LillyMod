@@ -5,20 +5,8 @@
 	"interactAction": "OpenCraftingInterface",
 	"interactData":
 	{
-		"config": "/interface/windowconfig/crafting.config",
-		"paneLayoutOverride":
-		{
-			"windowtitle":
-			{
-				"title": "  ZORCAN MANIPULATOR MACHINE",
-				"subtitle": "  Raw power at your fingertips!",
-				"icon":
-				{
-					"file" : "/interface/crafting/zorcanmanipulatormachine.png"
-				}
-			}
-		},
-		"filter" : [ "zorcanmanipulatormachine", "manipulatortable", "acceleratortable", "anvil", "metalworkstation", "separatortable" ]
+		"config": "/interface/zorcanmanipulatormachine/zmm.config",
+		"filter" : [ "anvil", "metalworkstation", "scifianvil", "acceleratortable", "manipulatortable", "separatortable", "zorcanmanipulatormachine" ]
 	},
 	"printable": false,
 	"description": "Craft a range of weapons of immense power and armor with deep energy reserves.",
@@ -36,8 +24,8 @@
 			"imageLayers": [ { "image": "zorcanmanipulatormachine.png:<color>.<frame>", "fullbright": true }, { "image": "zorcanmanipulatormachinelit.png:<color>.<frame>" } ],
 
 			"imagePosition": [-8, 0],
-			"frames": 5,
-			"animationCycle": 1.5,
+			"frames": 4,
+			"animationCycle": 0.5,
       
 			"direction": "left",
 			"flipImages": true,
@@ -53,8 +41,8 @@
 			"imageLayers" : [ { "image" : "zorcanmanipulatormachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "zorcanmanipulatormachinelit.png:<color>.<frame>" } ],
 
 			"imagePosition" : [-8, 0],
-			"frames" : 5,
-			"animationCycle" : 1.5,
+			"frames" : 4,
+			"animationCycle" : 0.5,
       
 			"direction" : "right",
       
