@@ -12,13 +12,13 @@
 
 	"maleFrames":
 	{
-		"body": "chest.png",
+		"body": "chestm.png",
 		"backSleeve": "bsleeve.png",
 		"frontSleeve": "fsleeve.png"
 	},
 	"femaleFrames":
 	{
-		"body": "chest.png",
+		"body": "chestf.png",
 		"backSleeve": "bsleeve.png",
 		"frontSleeve": "fsleeve.png"
 	},
