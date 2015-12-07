@@ -26,16 +26,6 @@
 	],
 	
 	"sitEffectEmitters": [ "sleepbubbles" ],
-	"sitEmote": "sleep",
-	
-	"sitStatusEffects":
-	[
-		"regeneration4",
-		"nude"
-	],
-	
-	"sitEffectEmitters": [ "sleepbubbles" ],
-	"inventoryIcon": "lillyhealthpodicon.png",
 	"inventoryIcon": "lillyhealthpodicon.png",
 	
 	"orientations":
