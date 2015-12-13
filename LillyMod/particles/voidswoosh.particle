@@ -1,10 +1,10 @@
 {
-	"kind": "largevoidswoosh1",
+	"kind": "voidswoosh",
 	"definition":
 	{
 		"type": "animated",
 		"looping": true,
-		"animation": "/animations/statuseffects/void/void.animation",
+		"animation": "/animations/void/void.animation",
 		"position": [3, 0],
 		"finalVelocity": [0, 0],
 		"approach": [50, 50],

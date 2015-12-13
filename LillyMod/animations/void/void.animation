@@ -2,7 +2,6 @@
 	"frames": "void.png",
 	"variants": 1,
 	"frameNumber": 4,
-	"loops": 20.0,
 	"animationCycle": 0.8,
 	"offset": [0, 0]
 }
