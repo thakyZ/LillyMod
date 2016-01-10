@@ -1,0 +1,37 @@
+{
+  "objectName" : "lillyhouse",
+  "colonyTags" : ["misc", "petlilly", "lilly"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 500,
+  "description" : "Just big enough for a Lilly kitty to fit comfortably inside.",
+  "shortdescription" : "Lilly's house",
+  "race" : "generic",
+
+  "inventoryIcon" : "lillyhouseicon.png",
+  "scripts" : [
+    "/objects/spawner/shipPetSpawner.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "lilly",
+  "spawnOffset" : [0, 2],
+
+  "orientations" : [{
+      "image" : "lillyhouse.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [[-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2]],
+      "anchors" : ["bottom"]
+    }, {
+      "image" : "lillyhouse.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaces" : [[-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2]],
+      "anchors" : ["bottom"]
+    }
+  ]
+}
