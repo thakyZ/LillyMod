@@ -1,0 +1,19 @@
+{
+  "name" : "voidkill",
+  "blockingStat" : "voidkillImmunity",
+
+  "effectConfig" : {
+    "jumpDistance" : 8,
+    "healthDamageFactor" : 0.03
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "voidkill.lua"
+  ],
+
+  "animationConfig" : "voidkill.animation",
+
+  "label" : "Void",
+  "icon" : "/interface/statuses/void.png"
+}
