@@ -6,7 +6,7 @@
   "category" : "storage",
   "price" : 500,
   "description" : "Just big enough for a Lilly kitty to fit comfortably inside.",
-  "shortdescription" : "Lilly's house",
+  "shortdescription" : "Lilly's Pet House",
   "race" : "generic",
 
   "inventoryIcon" : "lillyhouseicon.png",
@@ -14,10 +14,11 @@
     "/objects/spawner/shipPetSpawner.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "lilly",
-  "spawnOffset" : [0, 2],
+  "shipPetType" : "petlilly",
+  "petParameters" : [],
 
-  "orientations" : [{
+  "orientations" : [
+    {
       "image" : "lillyhouse.png",
       "imagePosition" : [-8, 0],
       "direction" : "left",
@@ -25,7 +26,8 @@
 
       "spaces" : [[-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2]],
       "anchors" : ["bottom"]
-    }, {
+    },
+	{
       "image" : "lillyhouse.png",
       "imagePosition" : [-8, 0],
       "direction" : "right",
