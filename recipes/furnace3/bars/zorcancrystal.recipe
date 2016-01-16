@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 2 },
+    { "item" : "ceruliumcompound", "count" : 2 },
+    { "item" : "feroziumcompound", "count" : 2 },
+    { "item" : "plutoniumrod", "count" : 3 }
+  ],
+  "output" : { "item" : "zorcancrystal", "count" : 1 },
+  "groups" : ["craftingfurnace3", "bars", "all", "zorabian"]
+}

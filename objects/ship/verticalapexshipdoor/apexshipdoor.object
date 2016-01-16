@@ -1,69 +1,64 @@
 {
-	"objectName": "verticalapexshipdoor",
-	"colonyTags": ["apex","door"],
-	"rarity": "Common",
+  "objectName" : "verticalapexshipdoor",
+  "colonyTags" : ["apex", "door"],
+  "rarity" : "Common",
 
-	"category": "door",
-	"price": 625,
-	"description": "A door. Possibly suitable for a spaceship.",
-	"shortdescription": "Vertical Apex Ship Door",
-	"race": "apex",
-	"printable": true,
+  "category" : "door",
+  "price" : 625,
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Vertical Apex Ship Door",
+  "race" : "apex",
+  "printable" : true,
 
-	"apexDescription": "We use these doors on our ships.",
-	"avianDescription": "A door.",
-	"floranDescription": "Door!",
-	"glitchDescription": "Statement. A door.",
-	"humanDescription": "Cool door.",
-	"hylotlDescription": "A basic door.",
+  "apexDescription" : "We use these doors on our ships.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
 
-	// test
-	
-	/*
-	test
-	*/
-	
-	"inventoryIcon": "apexshipdooricon.png",
-	"orientations":
-	[
-		{
-			"dualImage": "apexshipdoor.png:default",
-			"imagePosition": [-16, -6],
-			"animationPosition": [-17, -6],
-			"flipImages": true,
-			"direction": "left",
+  // test
 
-			"spaceScan": 0.1,
-			"anchors": ["left", "right"]
-		},
-		{
-			"dualImage": "apexshipdoor.png:default",
-			"imagePosition": [-16, -6],
-			"animationPosition": [-16, -6],
-			"direction": "right",
+  /*
+  test
+   */
 
-			"spaceScan" : 0.1,
-			"anchors" : [ "left", "right"]
-		}
-	],
+  "inventoryIcon" : "apexshipdooricon.png",
+  "orientations" :
+  [{
+      "dualImage" : "apexshipdoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-17, -6],
+      "flipImages" : true,
+      "direction" : "left",
 
-	"scripts": ["/objects/wired/door/door.lua"],
-	"scriptDelta": 5,
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"]
+    }, {
+      "dualImage" : "apexshipdoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-16, -6],
+      "direction" : "right",
 
-	"animation": "/objects/wired/door/door.animation",
-	"animationCustom":
-	{
-		"sounds":
-		{
-			"open": ["/sfx/objects/apexcooldoor_open.ogg"],
-			"close": ["/sfx/objects/apexcooldoor_close.ogg"]
-		}
-	},
-	"animationParts":
-	{
-		"door": "apexshipdoor.png"
-	},
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"]
+    }
+  ],
 
-	"inboundNodes": [ [-2, 0] ],
-	"outboundNodes": [ [2, -1] ]
+  "scripts" : ["/objects/wired/door/door.lua"],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : ["/sfx/objects/apexcooldoor_open.ogg"],
+      "close" : ["/sfx/objects/apexcooldoor_close.ogg"]
+    }
+  },
+  "animationParts" : {
+    "door" : "apexshipdoor.png"
+  },
+
+  "inboundNodes" : [[-2, 0]],
+  "outboundNodes" : [[2, -1]]
 }

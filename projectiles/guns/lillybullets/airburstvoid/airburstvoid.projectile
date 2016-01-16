@@ -5,8 +5,7 @@
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
-  "actionOnReap" : [
-    {
+  "actionOnReap" : [{
       "action" : "config",
       "file" : "/projectiles/explosions/smokeexplosion/smokeexplosion.config"
     }

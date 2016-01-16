@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "zorcancrystal", "count" : 6 },
+    { "item" : "refinedrubium", "count" : 2 },
+    { "item" : "imperviumcompound", "count" : 2 }
+  ],
+  "output" : { "item" : "voidexcalibur", "count" : 1 },
+  "groups" : ["craftingzorcan", "weapons", "all"]
+}

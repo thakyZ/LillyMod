@@ -1,0 +1,48 @@
+{
+  "itemName" : "azorokinepticpants",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Discover how truly deep your energy reserves are.",
+  "shortdescription" : "^red;Admin ^white;Zorcanian Kineptic Anklet",
+  "tooltipKind" : "armor",
+
+  "itemTags" : ["adminzorabianarmor"],
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" :
+  [{
+      "stat" : "protection",
+      "amount" : 9000
+    }, {
+      "stat" : "maxEnergy",
+      "amount" : 18600
+    }, {
+      "stat" : "maxHealth",
+      "amount" : 5300
+    }, {
+      "stat" : "madtulip_vacuum_legs_immunity",
+      "amount" : 1
+    },
+    "nofalldamage",
+    "jumpboost",
+    "runboost"
+  ],
+
+  "colorOptions" :
+  [
+    /* GHOST WHITE */
+    {
+      "ffca8a" : "c7c7c7",
+      "e0975c" : "bcbcbc",
+      "a85636" : "999999",
+      "6f2919" : "636363",
+      "45d297" : "ff0000",
+      "1b8d78" : "9B0000",
+      "1c3b42" : "660000"
+    }
+  ]
+}

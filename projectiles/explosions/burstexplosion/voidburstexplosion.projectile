@@ -9,7 +9,7 @@
   "statusEffects" : [
     "electrified"
   ],
-  "damagePoly" : [ [-37, 0], [-28, -28], [0, -37], [28, -28], [37, 0], [28, 28], [0, 37], [-28, 28] ],
+  "damagePoly" : [[-37, 0], [-28, -28], [0, -37], [28, -28], [37, 0], [28, 28], [0, 37], [-28, 28]],
   "animationLoops" : false,
   "piercing" : true,
   "bounces" : -1,

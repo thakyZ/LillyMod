@@ -1,0 +1,52 @@
+{
+  "itemName" : "zorokinepticchest",
+  "price" : 1050,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Does not promote a healthy body weight.",
+  "shortdescription" : "Zorcanian Kineptic Pendant",
+  "tooltipKind" : "armor",
+
+  "itemTags" : ["zorabianarmor"],
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" :
+  [{
+      "stat" : "protection",
+      "amount" : 219
+    }, {
+      "stat" : "maxEnergy",
+      "amount" : 530
+    }, {
+      "stat" : "maxHealth",
+      "amount" : 129
+    }, {
+      "stat" : "madtulip_vacuum_chest_immunity",
+      "amount" : 1
+    }
+  ],
+  "colorOptions" :
+  [
+    /* GHOST WHITE */
+    {
+      "ffca8a" : "c7c7c7",
+      "e0975c" : "bcbcbc",
+      "a85636" : "999999",
+      "6f2919" : "636363",
+      "45d297" : "ff0000",
+      "1b8d78" : "9B0000",
+      "1c3b42" : "660000"
+    }
+  ]
+}
