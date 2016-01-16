@@ -9,15 +9,15 @@ To install please download from the releases or if you only want the source code
 This mod has some "cheaty" items in it, you cannot craft these and they have to spawn them in.
 Here are the list of the item name to spawn them in with ```/spawnitem```
 
-| Item Name         |
-|:----------------- |
-| zorohead          |
-| zorochest         |
-| zoropants         |
-| zoroback          |
-| zoroavalihead     |
-| zoroavalichest    |
-| zoroavalipants    |
-| zorokineptichead  |
-| zorokinepticchest |
-| zorokinepticpants |
+| Item Name          |
+|:------------------ |
+| azorohead          |
+| azorochest         |
+| azoropants         |
+| azoroback          |
+| azoroavalihead     |
+| azoroavalichest    |
+| azoroavalipants    |
+| azorokineptichead  |
+| azorokinepticchest |
+| azorokinepticpants |

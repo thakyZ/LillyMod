@@ -42,4 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 _MACOSX
-items/armors/lilly/zorabian/default/chestf.pdn
+
+
+# Custom ignores
+*.pdn
