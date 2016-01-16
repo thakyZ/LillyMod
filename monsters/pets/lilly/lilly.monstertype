@@ -1,5 +1,5 @@
 {
-  "type" : "lilly",
+  "type" : "petlilly",
 
   "categories" : ["petlilly"],
   "parts" : ["body"],
@@ -12,8 +12,7 @@
     "persistent" : true,
     "damageTeamType" : "ghostly",
 
-    "scripts" :
-    [
+    "scripts" : [
       "/monsters/pets/groundPet.lua",
       "/scripts/pathing.lua",
       "/scripts/stateMachine.lua",
@@ -148,13 +147,18 @@
       "appliesEnvironmentStatusEffects" : false,
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
-      "primaryScriptSources" :
-      [
+      "primaryScriptSources" : [
         "/stats/monster_primary.lua"
       ],
       "primaryScriptDelta" : 0,
 
       "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
         "maxHealth" : {
           "baseValue" : 72
         },
@@ -167,6 +171,10 @@
       },
 
       "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
         "health" : {
           "maxStat" : "maxHealth",
           "deltaStat" : "healthRegen",
