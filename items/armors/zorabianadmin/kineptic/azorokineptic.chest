@@ -24,14 +24,17 @@
 
   "statusEffects" :
   [{
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 500.00
+    }, {
       "stat" : "protection",
-      "amount" : 21900
+      "amount" : 50000
     }, {
       "stat" : "maxEnergy",
-      "amount" : 53000
+      "amount" : 50000
     }, {
       "stat" : "maxHealth",
-      "amount" : 12900
+      "amount" : 50000
     }, {
       "stat" : "madtulip_vacuum_chest_immunity",
       "amount" : 1
