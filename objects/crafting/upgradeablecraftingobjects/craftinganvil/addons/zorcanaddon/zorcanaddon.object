@@ -22,8 +22,7 @@
   "placementImagePosition" : [-24, -24],
 
   "inventoryIcon" : "zorcanaddonicon.png",
-  "orientations" : [
-    {
+  "orientations" : [{
       "direction" : "left",
       "image" : "zorcanaddon.png:<color>",
 
@@ -46,8 +45,7 @@
   "scripts" : ["/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua"],
 
   "addonConfig" : {
-    "isAddons" : [
-	  {
+    "isAddons" : [{
         "name" : "zorcanAddon"
       }
     ]

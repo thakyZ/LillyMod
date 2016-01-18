@@ -4,7 +4,7 @@
   "categories" : ["petlilly"],
   "parts" : ["body"],
 
-  "animation" : "/monsters/pets/cat/petcat.animation",
+  "animation" : "petlilly.animation",
 
   "dropPools" : [],
 
@@ -34,7 +34,7 @@
 
     "petBehavior" : "petBehavior",
 
-    "anchorName" : "humantechstation",
+    "anchorName" : "lillyhouse",
     "petResources" : {
       "sleepy" : 10,
       "hunger" : 60,
@@ -150,7 +150,7 @@
       "primaryScriptSources" : [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 0,
+      "primaryScriptDelta" : 5,
 
       "stats" : {
         "knockbackStunTime" : {

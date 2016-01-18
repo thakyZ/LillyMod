@@ -9,8 +9,7 @@
       "hit" : {
         "sounds" : ["/sfx/gun/impact_plasma.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,
@@ -38,8 +37,7 @@
                 "timeToLive" : 1,
                 "size" : 1.3
               }
-            },
-            {
+            }, {
               "type" : "ember",
               "size" : 1.3,
               "color" : [210, 0, 0, 255],
@@ -61,8 +59,7 @@
       "kill" : {
         "sounds" : ["/sfx/gun/impact_plasma.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,
@@ -90,8 +87,7 @@
                 "timeToLive" : 1,
                 "size" : 1.3
               }
-            },
-            {
+            }, {
               "type" : "ember",
               "size" : 1.3,
               "color" : [210, 0, 0, 255],
@@ -115,8 +111,7 @@
       "hit" : {
         "sounds" : ["/sfx/gun/impact_plasma.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,
@@ -136,8 +131,7 @@
       "kill" : {
         "sounds" : ["/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,
@@ -159,8 +153,7 @@
       "hit" : {
         "sounds" : ["/sfx/gun/impact_plasma.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,
@@ -180,8 +173,7 @@
       "kill" : {
         "sounds" : ["/sfx/melee/kill_wood1.ogg", "/sfx/melee/kill_wood2.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
               "size" : 1,

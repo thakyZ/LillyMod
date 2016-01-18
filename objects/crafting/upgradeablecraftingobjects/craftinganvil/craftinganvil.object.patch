@@ -6,7 +6,7 @@
       "addonData" : {
         "animationState" : "zorcan",
         "interactData" : {
-          "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingzorcan" ]
+          "filter" : [ "craftingzorcan" ]
         }
       }
     }
