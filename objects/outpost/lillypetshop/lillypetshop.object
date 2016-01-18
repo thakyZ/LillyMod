@@ -1,10 +1,13 @@
 {
+  // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
   "objectName" : "lillypetshop",
-  "tags" : ["outpost","commerce"],
+  "tags" : ["outpost", "commerce"],
   "rarity" : "Common",
   "description" : "An intergalactic Pet store. It seems an ideal place to stock up on pet suplies.",
   "shortdescription" : "Lilly's Pet Shop",
   "race" : "generic",
+  "printable" : false,
+
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/merchant.config",
@@ -16,21 +19,28 @@
     },
     "buyFactor" : 1.0,
     "sellFactor" : 0.2,
-    "items" : [
-      { "item" : "lillyhouse" },
-      { "item" : "pethouseBunny" },
-      { "item" : "pethouseCat" },
-      { "item" : "pethouseCrasberry" },
-      { "item" : "pethousePiglett" },
-      { "item" : "pethouseSnake" },
-      { "item" : "pethouseSnugget" },
-      { "item" : "pethouseWeasel" },
-      { "item" : "petTrap" }
-]
+    "items" : [{
+        "item" : "lillyhouse"
+      }, {
+        "item" : "pethouseBunny"
+      }, {
+        "item" : "pethouseCat"
+      }, {
+        "item" : "pethouseCrasberry"
+      }, {
+        "item" : "pethousePiglett"
+      }, {
+        "item" : "pethouseSnake"
+      }, {
+        "item" : "pethouseSnugget"
+      }, {
+        "item" : "pethouseWeasel"
+      }, {
+        "item" : "petTrap"
+      }
+    ]
   },
-  "printable" : false,
   "lightColor" : [175, 175, 175],
-  // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
 
   "apexDescription" : "A pet store. I'll be sure to buy everything I need.",
   "avianDescription" : "A pet store. Let's hope they sell what I want.",
@@ -41,11 +51,16 @@
   "novakidDescription" : "Gonna buy me some pets, toys, and maybe a sneaky bottle a' automato juice.",
 
   "inventoryIcon" : "lillypetshopicon.png",
-  "orientations" : [
-    {
-      "imageLayers" : [ { "image" : "lillypetshopleft.png:<color>", "fullbright" : true }, { "image" : "lillypetshopleftlit.png:<color>" } ],
+  "orientations" : [{
+      "imageLayers" : [{
+          "image" : "lillypetshopleft.png",
+          "fullbright" : true
+        }, {
+          "image" : "lillypetshopleftlit.png"
+        }
+      ],
       "direction" : "left",
-      
+
       "lightPosition" : [-2, 4],
 
       "imagePosition" : [-40, 0],
@@ -53,12 +68,17 @@
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "imageLayers" : [ { "image" : "lillypetshopright.png:<color>", "fullbright" : true }, { "image" : "lillypetshoprightlit.png:<color>" } ],
+      "anchors" : ["bottom"]
+    }, {
+      "imageLayers" : [{
+          "image" : "lillypetshopright.png",
+          "fullbright" : true
+        }, {
+          "image" : "lillypetshoprightlit.png"
+        }
+      ],
       "direction" : "right",
-      
+
       "lightPosition" : [1, 4],
 
       "imagePosition" : [-40, 0],
@@ -66,8 +86,7 @@
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : ["bottom"]
     }
   ]
-
 }

@@ -1,4 +1,4 @@
 [
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "verticalapexshipdoor" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "apexshipdoor" } }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "verticalapexshipdoor" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "apexshipdoor" } }
 ]

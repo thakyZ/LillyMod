@@ -1,8 +1,0 @@
-{
-	"input":
-	[
-		{ "item": "petalred", "count": 6 }
-	],
-	"output": { "item": "redflower", "count": 1 },
-	"groups": [ "craftingtable", "objects", "all" ]
-}

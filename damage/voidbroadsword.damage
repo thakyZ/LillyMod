@@ -7,10 +7,9 @@
   "effects" : {
     "organic" : {
       "hit" : {
-        "sounds" : [ "/sfx/melee/slash.ogg" ],
+        "sounds" : ["/sfx/melee/slash.ogg"],
         "particles" : [
-          [
-            {
+          [{
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
               "size" : 1,
@@ -24,7 +23,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -41,7 +39,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -58,7 +55,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -75,7 +71,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -92,7 +87,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -109,7 +103,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -130,10 +123,9 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/melee/2h_sword_kill_organic1.ogg", "/sfx/melee/2h_sword_kill_organic2.ogg" ],
+        "sounds" : ["/sfx/melee/2h_sword_kill_organic1.ogg", "/sfx/melee/2h_sword_kill_organic2.ogg"],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
@@ -148,8 +140,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -166,7 +156,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -183,7 +172,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -200,7 +188,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -217,7 +204,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -234,7 +220,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -258,10 +243,9 @@
 
     "robotic" : {
       "hit" : {
-        "sounds" : [ "/sfx/melee/sword_hit_robotic.ogg" ],
+        "sounds" : ["/sfx/melee/sword_hit_robotic.ogg"],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
@@ -276,7 +260,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -292,7 +275,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -308,7 +290,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -324,7 +305,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -340,7 +320,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -356,7 +335,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -376,10 +354,9 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+        "sounds" : ["/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg"],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
@@ -394,7 +371,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -410,7 +386,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -426,7 +401,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -442,7 +416,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -458,7 +431,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -474,7 +446,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -489,8 +460,7 @@
                 "initialVelocity" : [13, 3],
                 "timeToLive" : 1
               }
-            },
-            {
+            }, {
               "type" : "ember",
               "size" : 1.0,
               "color" : [255, 200, 0, 255],
@@ -505,7 +475,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -521,7 +490,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -537,7 +505,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -553,7 +520,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -569,7 +535,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -584,8 +549,7 @@
                 "initialVelocity" : [13, 3],
                 "timeToLive" : 1
               }
-            },
-            {
+            }, {
               "type" : "ember",
               "size" : 1.0,
               "color" : [255, 200, 0, 255],
@@ -600,7 +564,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -616,7 +579,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -632,7 +594,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -648,7 +609,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -664,7 +624,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -679,8 +638,7 @@
                 "initialVelocity" : [13, 3],
                 "timeToLive" : 1
               }
-            },
-            {
+            }, {
               "type" : "ember",
               "size" : 1.0,
               "color" : [255, 200, 0, 255],
@@ -695,7 +653,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -711,7 +668,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -727,7 +683,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -743,7 +698,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -759,7 +713,6 @@
                 "timeToLive" : 1
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -781,10 +734,9 @@
     },
     "wooden" : {
       "hit" : {
-        "sounds" : [ "/sfx/melee/sword_hit_wood1.ogg", "/sfx/melee/sword_hit_wood2.ogg", "/sfx/melee/sword_hit_wood3.ogg" ],
+        "sounds" : ["/sfx/melee/sword_hit_wood1.ogg", "/sfx/melee/sword_hit_wood2.ogg", "/sfx/melee/sword_hit_wood3.ogg"],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
@@ -799,7 +751,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -816,7 +767,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -833,7 +783,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -850,7 +799,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -867,7 +815,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -884,7 +831,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -905,10 +851,9 @@
         ]
       },
       "kill" : {
-        "sounds" : [ "/sfx/melee/kill_wood1.ogg", "/sfx/melee/kill_wood2.ogg" ],
+        "sounds" : ["/sfx/melee/kill_wood1.ogg", "/sfx/melee/kill_wood2.ogg"],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/largehitspark/largehitspark.animation",
@@ -923,8 +868,6 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -941,7 +884,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -958,7 +900,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -975,7 +916,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,
@@ -992,7 +932,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.0,
@@ -1009,7 +948,6 @@
                 "size" : 1.3
               }
             },
-
             {
               "type" : "ember",
               "size" : 1.3,

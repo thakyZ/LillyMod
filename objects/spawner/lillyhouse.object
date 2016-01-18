@@ -10,6 +10,7 @@
   "race" : "generic",
 
   "inventoryIcon" : "lillyhouseicon.png",
+
   "scripts" : [
     "/objects/spawner/shipPetSpawner.lua"
   ],
@@ -17,8 +18,7 @@
   "shipPetType" : "petlilly",
   "petParameters" : [],
 
-  "orientations" : [
-    {
+  "orientations" : [{
       "image" : "lillyhouse.png",
       "imagePosition" : [-8, 0],
       "direction" : "left",
@@ -26,8 +26,7 @@
 
       "spaces" : [[-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2]],
       "anchors" : ["bottom"]
-    },
-	{
+    }, {
       "image" : "lillyhouse.png",
       "imagePosition" : [-8, 0],
       "direction" : "right",

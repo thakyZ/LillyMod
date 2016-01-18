@@ -1,4 +1,4 @@
 [
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "verticalglitchshipdoor" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "glitchshipdoor" } }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "verticalglitchshipdoor" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glitchshipdoor" } }
 ]

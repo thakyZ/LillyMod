@@ -1,0 +1,10 @@
+{
+  "itemName" : "zorcancrystal",
+  "price" : 40,
+  "rarity" : "Legendary",
+  "inventoryIcon" : "zorcancrystal.png",
+  "description" : "It's a metal alloy in a crystal form, neat!",
+  "shortdescription" : "^purple;Zorcan Crystal",
+
+  "fuelAmount" : 250
+}

@@ -6,19 +6,19 @@
     "loops" : true,
     "start" : {
       "particles" : [
-        [ "voidswoosh" ], [ "voidswoosh" ]
+        ["voidswoosh"], ["voidswoosh"]
       ],
-      "sounds" : [ [ ] ]
+      "sounds" : [[]]
     },
     "particles" : [
-      [ "voidswoosh" ], [ "voidswoosh" ], [ "voidswoosh" ], [ "voidswoosh" ], [ "voidswoosh" ]
+      ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
     ],
-    "sounds" : [ [ ] ],
+    "sounds" : [[]],
     "stop" : {
       "particles" : [
-        [ "voidswoosh" ], [ "voidswoosh" ], [ "voidswoosh" ]
+        ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
       ],
-      "sounds" : [ [ ] ]
+      "sounds" : [[]]
     }
   }
 }

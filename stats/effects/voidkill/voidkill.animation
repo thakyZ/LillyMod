@@ -3,11 +3,9 @@
     "sparks" : {
       "enabled" : true,
       "emissionRate" : 5.0,
-      "particles" : [
-        {
+      "particles" : [{
           "particle" : "voidswoosh"
-        },
-        {
+        }, {
           "particle" : "voidswoosh"
         }
       ]
@@ -21,6 +19,6 @@
     }
   },
   "sounds" : {
-    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+    "bolt" : ["/sfx/projectiles/electric_barrier_shock1.ogg"]
   }
 }
