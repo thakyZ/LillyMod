@@ -8,34 +8,38 @@
   "shortdescription" : "Zorcanian Kineptic Pendant",
   "tooltipKind" : "armor",
 
-  "itemTags" : ["zorabianarmor"],
-
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "statusEffects" :
   [{
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 4.25
+    }, {
       "stat" : "protection",
-      "amount" : 219
+      "amount" : 60
     }, {
       "stat" : "maxEnergy",
-      "amount" : 530
+      "amount" : 50
     }, {
       "stat" : "maxHealth",
-      "amount" : 129
+      "amount" : 50
     }, {
       "stat" : "madtulip_vacuum_chest_immunity",
       "amount" : 1
     }
   ],
+
+  "itemTags" : ["zorabianarmor"],
+  
   "colorOptions" :
   [
     /* GHOST WHITE */

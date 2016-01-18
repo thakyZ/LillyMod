@@ -8,27 +8,27 @@
   "shortdescription" : "Zorabian Avali Troop Helmet",
   "tooltipKind" : "armor",
 
-  "itemTags" : ["zorabianarmor"],
-
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
   "statusEffects" :
   [{
-      "stat" : "protection",
-      "amount" : 111
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 3.05
     }, {
       "stat" : "maxEnergy",
-      "amount" : 266
+      "amount" : 44
     }, {
       "stat" : "maxHealth",
-      "amount" : 78
+      "amount" : 44
     }, {
       "stat" : "madtulip_vacuum_head_immunity",
       "amount" : 1
     }
   ],
+
+  "itemTags" : ["zorabianarmor"],
 
   "colorOptions" :
   [

@@ -8,26 +8,29 @@
   "shortdescription" : "Zorabian Troop Leggings",
   "tooltipKind" : "armor",
 
-  "itemTags" : ["zorabianarmor"],
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
   "statusEffects" :
   [{
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.7
+    }, {
       "stat" : "protection",
-      "amount" : 90
+      "amount" : 36
     }, {
       "stat" : "maxEnergy",
-      "amount" : 186
+      "amount" : 32
     }, {
       "stat" : "maxHealth",
-      "amount" : 53
+      "amount" : 36
     }, {
       "stat" : "madtulip_vacuum_legs_immunity",
       "amount" : 1
     }
   ],
+
+  "itemTags" : ["zorabianarmor"],
 
   "colorOptions" :
   [
