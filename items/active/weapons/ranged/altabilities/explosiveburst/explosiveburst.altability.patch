@@ -1,5 +1,0 @@
-[
-  { "op" : "add", "path" : "/altAbility/elementalConfig/void", "value" : {
-    "projectileType" : "airburstvoidbullet"
-  } }
-]
