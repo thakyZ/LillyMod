@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "apexpod2", "count" : 1 },
+    { "item" : "zorcancrystal", "count" : 3 },
+    { "item" : "liquidhealing", "count" : 200 },
+    { "item" : "redstim", "count" : 4 }
+  ],
+  "output" : { "item" : "lillyhealthpod", "count" : 1 },
+  "groups" : ["zorcanmanipulatormachine", "objects", "all", "zorabian", "lilly"]
+}

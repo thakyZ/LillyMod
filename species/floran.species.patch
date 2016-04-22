@@ -1,4 +1,4 @@
 [
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "verticalfloranshipdoor" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "floranshipdoor" } }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "verticalfloranshipdoor" } },
+ { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "floranshipdoor" } }
 ]

@@ -1,25 +1,23 @@
 {
-	"kind": "voidswoosh",
-	"definition":
-	{
-		"type": "animated",
-		"looping": true,
-		"animation": "/animations/void/void.animation",
-		"position": [3, 0],
-		"finalVelocity": [0, 0],
-		"approach": [50, 50],
-		"destructionAction": "shrink",
-		"destructionTime": 0.425,
-		"fade": 1,
-		"light": [238, 238, 238],
-		"size": 0.5,
-		"layer": "middle",
-		"timeToLive": 0.425,
-		
-		"variance":
-		{
-			"finalVelocity": [1.5, 1.5],
-			"position": [2, 2]
-		}
-	}
+  "kind" : "voidswoosh",
+  "definition" : {
+    "type" : "animated",
+    "looping" : true,
+    "animation" : "/animations/void/void.animation",
+    "position" : [3, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [50, 50],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.425,
+    "fade" : 1,
+    "light" : [238, 238, 238],
+    "size" : 0.5,
+    "layer" : "middle",
+    "timeToLive" : 0.425,
+
+    "variance" : {
+      "finalVelocity" : [1.5, 1.5],
+      "position" : [2, 2]
+    }
+  }
 }

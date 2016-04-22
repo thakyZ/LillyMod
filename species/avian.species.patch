@@ -1,4 +1,4 @@
 [
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "verticalavianshipdoor" } },
-	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avianshipdoor" } }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "verticalavianshipdoor" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avianshipdoor" } }
 ]
