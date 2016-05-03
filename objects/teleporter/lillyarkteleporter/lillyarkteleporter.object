@@ -1,0 +1,67 @@
+{
+  "objectName" : "lillyarkteleporter",
+  "colonyTags" : ["misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "This teleporter should get me back to the Ark.",
+  "shortdescription" : "Ark Teleporter",
+  "price" : 3000,
+  "printable" : false,
+  "race" : "ancient",
+
+  "apexDescription" : "This looks like it might be linked to the Ark.",
+  "avianDescription" : "This teleporter looks like it might provide a one-way trip to the Ark.",
+  "floranDescription" : "Thisss might take Floran ssstraight to the ruinsss.",
+  "glitchDescription" : "Analytical. I believe this teleporter is connected to the Ark ruins.",
+  "humanDescription" : "Judging by the look of this teleporter, I'd guess it gives a one-way trip to the Ark.",
+  "hylotlDescription" : "I believe this teleporter might lead to the Ark ruins.",
+  "novakidDescription" : "A handy way to get back to the Ark and on to the next adventure!",
+
+  "category" : "teleporter",
+  "lightColor" : [56, 102, 124],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "lillyarkteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lillyarkteleporter.png:<color>", "fullbright" : true }, { "image" : "lillyarkteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "health" : 20,
+
+  "breakDropPool" : "remoteteleporter",
+  
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}

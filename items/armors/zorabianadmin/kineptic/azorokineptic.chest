@@ -1,60 +1,67 @@
 {
-  "itemName" : "azorokinepticchest",
-  "price" : 0,
-  "inventoryIcon" : "icons.png:chest",
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Does not promote a healthy body weight.",
-  "shortdescription" : "^red;Admin ^white;Zorcanian Kineptic Pendant",
-  "tooltipKind" : "armor",
+    "itemName" : "azorokinepticchest",
+    "price" : 0,
+    "inventoryIcon" : "icons.png:chest",
+    "maxStack" : 1,
+    "rarity" : "Legendary",
+    "description" : "Does not promote a healthy body weight.",
+    "shortdescription" : "^red;Admin ^white;Zorcanian Kineptic Pendant",
+    "tooltipKind" : "armor",
 
-  "itemTags" : ["adminzorabianarmor"],
+    "itemTags" : ["adminzorabianarmor"],
 
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "statusEffects" :
-  [{
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 500.00
-    }, {
-      "stat" : "protection",
-      "amount" : 50000
-    }, {
-      "stat" : "maxEnergy",
-      "amount" : 50000
-    }, {
-      "stat" : "maxHealth",
-      "amount" : 50000
-    }, {
-      "stat" : "madtulip_vacuum_chest_immunity",
-      "amount" : 1
-    },
-    "rage",
-    "energyregen672",
-    "regenerationfast"
-  ],
-
-  "colorOptions" :
-  [
-    /* GHOST WHITE */
+    "maleFrames" :
     {
-      "ffca8a" : "c7c7c7",
-      "e0975c" : "bcbcbc",
-      "a85636" : "999999",
-      "6f2919" : "636363",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    }
-  ]
+        "body" : "chest.png",
+        "backSleeve" : "bsleeve.png",
+        "frontSleeve" : "fsleeve.png"
+    },
+
+    "femaleFrames" :
+    {
+        "body" : "chest.png",
+        "backSleeve" : "bsleeve.png",
+        "frontSleeve" : "fsleeve.png"
+    },
+
+    "statusEffects" :
+    [
+        {
+            "stat" : "powerMultiplier",
+            "baseMultiplier" : 500.00
+        },
+        {
+            "stat" : "protection",
+            "amount" : 50000
+        },
+        {
+            "stat" : "maxEnergy",
+            "amount" : 50000
+        },
+        {
+            "stat" : "maxHealth",
+            "amount" : 50000
+        },
+        {
+            "stat" : "madtulip_vacuum_chest_immunity",
+            "amount" : 1
+        },
+        "rage",
+        "energyregen672",
+        "regenerationfast"
+    ],
+
+    "colorOptions" :
+    [
+        /* GHOST WHITE */
+        {
+            "ffca8a" : "c7c7c7",
+            "e0975c" : "bcbcbc",
+            "a85636" : "999999",
+            "6f2919" : "636363",
+            "45d297" : "ff0000",
+            "1b8d78" : "9B0000",
+            "1c3b42" : "660000"
+        }
+    ]
 }

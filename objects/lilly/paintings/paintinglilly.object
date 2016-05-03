@@ -1,30 +1,31 @@
 {
-  "objectName" : "paintinglilly",
-  "colonyTags" : ["pretty", "lilly"],
-  "rarity" : "Rare",
-  "description" : "A painting of Lilly. I think she blinked!",
-  "shortdescription" : "Lilly Portrait",
-  "race" : "generic",
-  "category" : "decorative",
-  "price" : 25,
-  "printable" : false,
+    "objectName" : "paintinglilly",
+    "colonyTags" : ["pretty", "lilly"],
+    "rarity" : "Rare",
+    "description" : "A painting of Lilly. I think she blinked!",
+    "shortdescription" : "Lilly Portrait",
+    "race" : "generic",
+    "category" : "decorative",
+    "price" : 25,
+    "printable" : false,
 
-  "apexDescription" : "I think Lilly wants to play.",
-  "avianDescription" : "Ahh! Lilly she's going to eat me!",
-  "floranDescription" : "Little kitty caught a moussse.",
-  "glitchDescription" : "Statement. Cat blinked.",
-  "humanDescription" : "Awww Lilly's so cute...",
-  "hylotlDescription" : "I don't think that this cat is stairing friendly at me.",
+    "apexDescription" : "I think Lilly wants to play.",
+    "avianDescription" : "Ahh! Lilly she's going to eat me!",
+    "floranDescription" : "Little kitty caught a moussse.",
+    "glitchDescription" : "Statement. Cat blinked.",
+    "humanDescription" : "Awww Lilly's so cute...",
+    "hylotlDescription" : "I don't think that this cat is stairing friendly at me.",
 
-  "inventoryIcon" : "paintinglillyicon.png",
-  "orientations" :
-  [{
-      "image" : "paintinglilly.png",
-      "imagePosition" : [-8, -16],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "spaceScan" : 0.1,
-      "anchors" : ["background"]
-    }
-  ]
+    "inventoryIcon" : "paintinglillyicon.png",
+    "orientations" :
+    [
+        {
+            "image" : "paintinglilly.png",
+            "imagePosition" : [-8, -16],
+            "frames" : 1,
+            "animationCycle" : 0.5,
+            "spaceScan" : 0.1,
+            "anchors" : ["background"]
+        }
+    ]
 }

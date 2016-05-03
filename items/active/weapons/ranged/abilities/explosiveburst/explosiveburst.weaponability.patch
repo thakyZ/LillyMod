@@ -1,0 +1,3 @@
+[
+    {"op" : "add", "path" : "/ability/elementalConfig/void", "value" : {"projectileType" : "airburstvoidbullet"} }
+]

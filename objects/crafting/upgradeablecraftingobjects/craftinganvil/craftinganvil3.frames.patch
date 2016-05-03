@@ -1,11 +1,12 @@
 [
-  { "op": "replace", "path": "/frameGrid/dimensions/0", "value": 5 },
-  { "op": "replace", "path": "/frameGrid/names/0", "value": [
-      "default",
-      "default.accelerator",
-      "default.manipulator",
-      "default.separator",
-      "default.zorcan"
-    ]
-  }
+    {"op" : "replace", "path" : "/frameGrid/dimensions/0", "value" : 5},
+    {"op" : "replace", "path" : "/frameGrid/names/0", "value" :
+        [
+            "default",
+            "default.accelerator",
+            "default.manipulator",
+            "default.separator",
+            "default.zorcan"
+        ]
+    }
 ]

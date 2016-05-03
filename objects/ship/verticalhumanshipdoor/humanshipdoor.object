@@ -1,58 +1,63 @@
 {
-  "objectName" : "verticalhumanshipdoor",
-  "colonyTags" : ["human", "door"],
-  "rarity" : "Common",
+    "objectName" : "verticalhumanshipdoor",
+    "colonyTags" : ["human", "door"],
+    "rarity" : "Common",
 
-  "category" : "door",
-  "price" : 625,
-  "description" : "A door. Possibly suitable for a spaceship.",
-  "shortdescription" : "Vertical Human Ship Door",
-  "race" : "human",
-  "printable" : true,
+    "category" : "door",
+    "price" : 625,
+    "description" : "A door. Possibly suitable for a spaceship.",
+    "shortdescription" : "Vertical Human Ship Door",
+    "race" : "human",
+    "printable" : true,
 
-  "apexDescription" : "We use these doors on our ships.",
-  "avianDescription" : "A door.",
-  "floranDescription" : "Door!",
-  "glitchDescription" : "Statement. A door.",
-  "humanDescription" : "Cool door.",
-  "hylotlDescription" : "A basic door.",
+    "apexDescription" : "We use these doors on our ships.",
+    "avianDescription" : "A door.",
+    "floranDescription" : "Door!",
+    "glitchDescription" : "Statement. A door.",
+    "humanDescription" : "Cool door.",
+    "hylotlDescription" : "A basic door.",
 
-  "inventoryIcon" : "humanshipdooricon.png",
-  "orientations" :
-  [{
-      "dualImage" : "humanshipdoor.png:default",
-      "imagePosition" : [-16, -7],
-      "animationPosition" : [-16, -7],
-      "flipImages" : true,
-      "direction" : "left",
+    "inventoryIcon" : "humanshipdooricon.png",
+    "orientations" :
+    [
+        {
+            "dualImage" : "humanshipdoor.png:default",
+            "imagePosition" : [-16, -7],
+            "animationPosition" : [-16, -7],
+            "flipImages" : true,
+            "direction" : "left",
 
-      "spaceScan" : 0.1,
-      "anchors" : ["left", "right"]
-    }, {
-      "dualImage" : "humanshipdoor.png:default",
-      "imagePosition" : [-16, -7],
-      "animationPosition" : [-16, -7],
-      "direction" : "right",
+            "spaceScan" : 0.1,
+            "anchors" : ["left", "right"]
+        },
+        {
+            "dualImage" : "humanshipdoor.png:default",
+            "imagePosition" : [-16, -7],
+            "animationPosition" : [-16, -7],
+            "direction" : "right",
 
-      "spaceScan" : 0.1,
-      "anchors" : ["left", "right"]
-    }
-  ],
+            "spaceScan" : 0.1,
+            "anchors" : ["left", "right"]
+        }
+    ],
 
-  "scripts" : ["/objects/wired/door/door.lua"],
-  "scriptDelta" : 5,
+    "scripts" : ["/objects/wired/door/door.lua"],
+    "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
-  "animationCustom" : {
-    "sounds" : {
-      "open" : ["/sfx/objects/apexcooldoor_open.ogg"],
-      "close" : ["/sfx/objects/apexcooldoor_close.ogg"]
-    }
-  },
-  "animationParts" : {
-    "door" : "humanshipdoor.png"
-  },
+    "animation" : "/objects/wired/door/door.animation",
+    "animationCustom" :
+    {
+        "sounds" :
+        {
+            "open" : ["/sfx/objects/apexcooldoor_open.ogg"],
+            "close" : ["/sfx/objects/apexcooldoor_close.ogg"]
+        }
+    },
+    "animationParts" :
+    {
+        "door" : "humanshipdoor.png"
+    },
 
-  "inboundNodes" : [[-2, 0]],
-  "outboundNodes" : [[2, 1]]
+    "inboundNodes" : [[-2, 0]],
+    "outboundNodes" : [[2, 1]]
 }

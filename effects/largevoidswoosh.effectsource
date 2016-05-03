@@ -1,35 +1,38 @@
 {
-  "kind" : "largevoidswoosh",
-  "definition" : {
-    "duration" : 0.3,
-    "loops" : true,
-    "start" : {
-      "particles" :
-      [
-        ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
-      ],
-      "sounds" :
-      [
-        []
-      ]
-    },
-    "particles" :
-    [
-      ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
-    ],
-    "sounds" :
-    [
-      []
-    ],
-    "stop" : {
-      "particles" :
-      [
-        ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
-      ],
-      "sounds" :
-      [
-        []
-      ]
+    "kind" : "largevoidswoosh",
+    "definition" :
+    {
+        "duration" : 0.3,
+        "loops" : true,
+        "start" :
+        {
+            "particles" :
+            [
+                ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
+            ],
+            "sounds" :
+            [
+                []
+            ]
+        },
+        "particles" :
+        [
+            ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
+        ],
+        "sounds" :
+        [
+            []
+        ],
+        "stop" :
+        {
+            "particles" :
+            [
+                ["largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1", "largevoidswoosh1"]
+            ],
+            "sounds" :
+            [
+                []
+            ]
+        }
     }
-  }
 }

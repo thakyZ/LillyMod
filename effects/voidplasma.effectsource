@@ -1,24 +1,27 @@
 {
-  "kind" : "voidplasma",
-  "location" : "mouth",
-  "definition" : {
-    "duration" : 0.05,
-    "loops" : true,
-    "start" : {
-      "particles" : [
-        ["voidswoosh"], ["voidswoosh"]
-      ],
-      "sounds" : [[]]
-    },
-    "particles" : [
-      ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
-    ],
-    "sounds" : [[]],
-    "stop" : {
-      "particles" : [
-        ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
-      ],
-      "sounds" : [[]]
+    "kind" : "voidplasma",
+    "location" : "mouth",
+    "definition" :
+    {
+        "duration" : 0.05,
+        "loops" : true,
+        "start" :
+        {
+            "particles" : [
+                ["voidexcalibur"], ["voidexcalibur2"]
+            ],
+            "sounds" : [[]]
+        },
+        "particles" : [
+            ["voidexcalibur"], ["voidexcalibur"], ["voidexcalibur"], ["voidexcalibur2"], ["voidexcalibur2"], ["voidexcalibur2"]
+        ],
+        "sounds" : [[]],
+        "stop" :
+        {
+            "particles" : [
+                ["voidexcalibur"], ["voidexcalibur"], ["voidexcalibur2"], ["voidexcalibur2"]
+            ],
+            "sounds" : [[]]
+        }
     }
-  }
 }

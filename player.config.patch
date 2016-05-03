@@ -22,6 +22,5 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorokineptichead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorokinepticpants" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zoropants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorcanmanipulatormachine" } },
-  { "op" : "replace", "path" : "/reviveCost", "value" : { "absolute" : 1, "percentile" : 1.5 } }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorcanmanipulatormachine" } }
 ]

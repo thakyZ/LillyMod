@@ -1,4 +1,4 @@
 [
-  { "op" : "add", "path" : "/fuelAmount", "value" : 15 },
-  { "op" : "add", "path" : "/price", "value" : 5 }
+    {"op" : "add", "path" : "/fuelAmount", "value" : 15},
+    {"op" : "add", "path" : "/price", "value" : 5}
 ]

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "voidplasma",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "frames" : "voidplasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 150,
+  "emitters" : ["voidplasma"],
+  "supportsProcessing" : true,
+  "actionOnReap" :
+  [ {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [],
+  "lightColor" : [235, 235, 235],
+  "damageKind" : "voidplasma"
+}

@@ -1,0 +1,76 @@
+{
+  "objectName" : "ancientlamp",
+  "colonyTags" : ["ancient","light"],
+  "rarity" : "Legendary",
+  "description" : "Deep shadows stretch away from this flickering torch.",
+  "shortdescription" : "Ancient Torch Stand",
+  "race" : "ancient",
+  "category" : "light",
+  "price" : 0,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "An ancient glowing lamp. I am in awe.",
+  "avianDescription" : "A glowing lamp. The universe is wonderful.",
+  "floranDescription" : "Shiny rock! Floran is reminded of a setting sun.",
+  "glitchDescription" : "Perceptive. This ethereal glow is produced by a substance I do not recognise.",
+  "humanDescription" : "It's like an ancient short torch!",
+  "hylotlDescription" : "This towering pillar must have seen a lot of history.",
+  "novakidDescription" : "This glowin' stone reminds me of a distant moon.",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "ancientlampicon.png",
+  "orientations" : [
+    {
+      "image" : "ancientlamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "anchors" : [ "bottom" ],
+      "animationPosition" : [0, 0]
+    },
+    {
+      "image" : "ancientlamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+      
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
+      "anchors" : [ "bottom" ],
+      "animationPosition" : [0, 0]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+
+  "animation" : "ancientlamp.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "ancientlamp.png",
+    "fg" : "ancientlamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}
