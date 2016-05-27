@@ -1,50 +1,66 @@
 {
-    "itemName" : "zorokineptichead",
-    "price" : 675,
-    "inventoryIcon" : "icons.png:head",
-    "maxStack" : 1,
-    "rarity" : "Legendary",
-    "description" : "Focus the energy released from your own metabolism; siphon it to maximum effect.",
-    "shortdescription" : "Zorcanian Kineptic Lens",
-    "tooltipKind" : "armor",
+  "itemName" : "zorokineptichead",
+  "price" : 675,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "Focus the energy released from your own metabolism; siphon it to maximum effect.",
+  "shortdescription" : "Zorcanian Kineptic Lens",
+  "tooltipKind" : "armor",
 
-    "maleFrames" : "head.png",
-    "femaleFrames" : "head.png",
-    "mask" : "mask.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
-    "statusEffects" :
-    [
-        {
-            "stat" : "powerMultiplier",
-            "baseMultiplier" : 3.05
-        },
-        {
-            "stat" : "maxEnergy",
-            "amount" : 44
-        },
-        {
-            "stat" : "maxHealth",
-            "amount" : 44
-        },
-        {
-            "stat" : "madtulip_vacuum_head_immunity",
-            "amount" : 1
-        }
-    ],
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 3.05
+    },
 
-    "itemTags" : ["zorabianarmor"],
+    {
+      "stat" : "protection",
+      "amount" : 40
+    },
 
-    "colorOptions" :
-    [
-        /* GHOST WHITE */
-        {
-            "ffca8a" : "c7c7c7",
-            "e0975c" : "bcbcbc",
-            "a85636" : "999999",
-            "6f2919" : "636363",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        }
-    ]
+    {
+      "stat" : "maxEnergy",
+      "amount" : 44
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 44
+    }
+  ],
+
+  "itemTags" : [ "zorabianarmor" ],
+
+  "colorOptions" : [
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ff0000", "1b8d78" : "9B0000", "1c3b42" : "660000" },
+    /* BLACK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "555555", "1b8d78" : "383838", "1c3b42" : "151515" },
+    /* GREY */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "808080", "1b8d78" : "555555", "1c3b42" : "303030" },
+    /* WHITE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "b6b6b6", "1b8d78" : "7b7b7b", "1c3b42" : "373737" },
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ff0000", "1b8d78" : "9B0000", "1c3b42" : "660000" },
+    /* ORANGE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ea9931", "1b8d78" : "af4e00", "1c3b42" : "6e2900" },
+    /* YELLOW */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "e2c344", "1b8d78" : "a46e06", "1c3b42" : "642f00" },
+    /* GREEN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "51bd3b", "1b8d78" : "247824", "1c3b42" : "144216" },
+    /* BLUE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "5588d4", "1b8d78" : "344495", "1c3b42" : "1a1c51" },
+    /* PURPLE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "a451c4", "1b8d78" : "6a2284", "1c3b42" : "320c40" },
+    /* PINK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "d35eae", "1b8d78" : "97276d", "1c3b42" : "59163f" },
+    /* BROWN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "a47844", "1b8d78" : "754c23", "1c3b42" : "472b13" }
+  ]
 }

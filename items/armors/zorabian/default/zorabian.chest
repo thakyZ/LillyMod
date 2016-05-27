@@ -1,173 +1,75 @@
 {
-    "itemName" : "zorochest",
-    "price" : 1050,
-    "inventoryIcon" : "icons.png:chest",
-    "maxStack" : 1,
-    "rarity" : "Legendary",
-    "description" : "The armor of the Void.",
-    "shortdescription" : "Zorabian Troop Chestplate",
-    "tooltipKind" : "armor",
+  "itemName" : "zorochest",
+  "price" : 1050,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "This armor is made out of a alloy that seems to be almost impenetrable.",
+  "shortdescription" : "Zorabian Chestplate",
+  "tooltipKind" : "armor",
 
-    "maleFrames" :
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
     {
-        "body" : "chestm.png",
-        "backSleeve" : "bsleeve.png",
-        "frontSleeve" : "fsleeve.png"
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 4.25
     },
-    "femaleFrames" :
+    
     {
-        "body" : "chestf.png",
-        "backSleeve" : "bsleeve.png",
-        "frontSleeve" : "fsleeve.png"
+      "stat" : "protection",
+      "amount" : 60
     },
+    
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    
+    {
+      "stat" : "maxHealth",
+      "amount" : 50
+    }
+  ],
 
-    "statusEffects" :
-    [
-        {
-            "stat" : "powerMultiplier",
-            "baseMultiplier" : 4.25
-        },
-        {
-            "stat" : "protection",
-            "amount" : 60
-        },
-        {
-            "stat" : "maxEnergy",
-            "amount" : 50
-        },
-        {
-            "stat" : "maxHealth",
-            "amount" : 50
-        },
-        {
-            "stat" : "madtulip_vacuum_chest_immunity",
-            "amount" : 1
-        }
-    ],
+  "itemTags" : [ "zorabianarmor" ],
 
-    "itemTags" : ["zorabianarmor"],
-
-    "colorOptions" :
-    [
-        /* GHOST WHITE */
-        {
-            "ffca8a" : "c7c7c7",
-            "e0975c" : "bcbcbc",
-            "a85636" : "999999",
-            "6f2919" : "636363",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* BLACK */
-        {
-            "ffca8a" : "838383",
-            "e0975c" : "555555",
-            "a85636" : "383838",
-            "6f2919" : "151515",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* GREY */
-        {
-            "ffca8a" : "b5b5b5",
-            "e0975c" : "808080",
-            "a85636" : "555555",
-            "6f2919" : "303030",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* WHITE */
-        {
-            "ffca8a" : "e6e6e6",
-            "e0975c" : "b6b6b6",
-            "a85636" : "7b7b7b",
-            "6f2919" : "373737",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* RED */
-        {
-            "ffca8a" : "f4988c",
-            "e0975c" : "d93a3a",
-            "a85636" : "932625",
-            "6f2919" : "601119",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* ORANGE */
-        {
-            "ffca8a" : "ffd495",
-            "e0975c" : "ea9931",
-            "a85636" : "af4e00",
-            "6f2919" : "6e2900",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* YELLOW */
-        {
-            "ffca8a" : "ffffa7",
-            "e0975c" : "e2c344",
-            "a85636" : "a46e06",
-            "6f2919" : "642f00",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* GREEN */
-        {
-            "ffca8a" : "b2e89d",
-            "e0975c" : "51bd3b",
-            "a85636" : "247824",
-            "6f2919" : "144216",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* BLUE */
-        {
-            "ffca8a" : "96cbe7",
-            "e0975c" : "5588d4",
-            "a85636" : "344495",
-            "6f2919" : "1a1c51",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* PURPLE */
-        {
-            "ffca8a" : "d29ce7",
-            "e0975c" : "a451c4",
-            "a85636" : "6a2284",
-            "6f2919" : "320c40",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* PINK */
-        {
-            "ffca8a" : "eab3db",
-            "e0975c" : "d35eae",
-            "a85636" : "97276d",
-            "6f2919" : "59163f",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        },
-        /* BROWN */
-        {
-            "ffca8a" : "ccae7c",
-            "e0975c" : "a47844",
-            "a85636" : "754c23",
-            "6f2919" : "472b13",
-            "45d297" : "ff0000",
-            "1b8d78" : "9B0000",
-            "1c3b42" : "660000"
-        }
-    ]
+  "colorOptions" :
+  [
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ff0000", "1b8d78" : "9B0000", "1c3b42" : "660000" },
+    /* BLACK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "555555", "1b8d78" : "383838", "1c3b42" : "151515" },
+    /* GREY */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "808080", "1b8d78" : "555555", "1c3b42" : "303030" },
+    /* WHITE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "b6b6b6", "1b8d78" : "7b7b7b", "1c3b42" : "373737" },
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ff0000", "1b8d78" : "9B0000", "1c3b42" : "660000" },
+    /* ORANGE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "ea9931", "1b8d78" : "af4e00", "1c3b42" : "6e2900" },
+    /* YELLOW */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "e2c344", "1b8d78" : "a46e06", "1c3b42" : "642f00" },
+    /* GREEN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "51bd3b", "1b8d78" : "247824", "1c3b42" : "144216" },
+    /* BLUE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "5588d4", "1b8d78" : "344495", "1c3b42" : "1a1c51" },
+    /* PURPLE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "a451c4", "1b8d78" : "6a2284", "1c3b42" : "320c40" },
+    /* PINK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "d35eae", "1b8d78" : "97276d", "1c3b42" : "59163f" },
+    /* BROWN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "45d297" : "a47844", "1b8d78" : "754c23", "1c3b42" : "472b13" }
+  ]
 }

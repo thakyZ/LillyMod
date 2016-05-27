@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "zorcancrystal", "count" : 8 },
-    { "item" : "leather", "count" : 1 },
-    { "item" : "syntheticmaterial", "count" : 1 }
+    { "item" : "zorcancrystal", "count" : 4 },
+    { "item" : "solariumstar", "count" : 4 },
+    { "item" : "canvas", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "zoropants", "count" : 1 },
-  "groups" : ["craftingzorcan", "armours", "all"]
+  "groups" : [ "craftingzorcan", "armours", "all" ]
 }

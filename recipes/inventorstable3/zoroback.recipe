@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "zorcancrystal", "count" : 6 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "glass", "count" : 10 },
+    { "item" : "livingroot", "count" : 1 },
+    { "item" : "scorchedcore", "count" : 1 },
+    { "item" : "copperbar", "count" : 4 },
+    { "item" : "staticcell", "count" : 1 }
+  ],
+  "output" : { "item" : "zoroback", "count" : 1 },
+  "groups" : [ "inventorstable3", "hazardgear", "all" ]
+}

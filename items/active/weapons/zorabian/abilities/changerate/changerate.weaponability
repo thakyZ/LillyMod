@@ -1,0 +1,92 @@
+{
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "rateType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1,
+              "properties" : {
+              }
+            },
+            "2" : {
+              "frames" : 1,
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middle" : {
+          "properties" : {
+            "image" : null
+          },
+
+          "partStates" : {
+            "rateType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:auto.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:semiauto.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "sounds" : {
+      "switchRate" : ["/sfx/gun/reload/shotgun_reload_clip3.ogg"]
+    }
+  },
+
+  "ability" : {
+    "type" : "changerate",
+    "name" : "Change Rate",
+    "scripts" : ["/items/active/weapons/zorabian/abilities/changerate/changerate.lua"],
+    "class" : "ChangeRate",
+
+    "changedRateIndex" : 1,
+
+    "rateTypes" : [
+      {
+        "fireTime" : 0.13,
+        "energyUsage" : 30
+      },
+      {
+        "fireTime" : 0.35,
+        "energyUsage" : 15
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

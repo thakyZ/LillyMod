@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 2 },
-    { "item" : "ceruliumcompound", "count" : 2 },
-    { "item" : "feroziumcompound", "count" : 2 },
-    { "item" : "plutoniumrod", "count" : 3 }
+    { "item" : "refinedaegisalt", "count" : 4 },
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 4 },
+    { "item" : "plutoniumrod", "count" : 8 },
+    { "item" : "liquidfuel", "count" : 256 }
   ],
   "output" : { "item" : "zorcancrystal", "count" : 1 },
   "groups" : ["craftingfurnace3", "bars", "all", "zorabian"]
