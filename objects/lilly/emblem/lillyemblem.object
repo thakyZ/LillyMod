@@ -4,7 +4,6 @@
     "rarity" : "Common",
     "category" : "furniture",
     "price" : 150,
-    "printable" : false,
     "description" : "The paw emblem of Lilly.",
     "shortdescription" : "Lilly Co. Emblem",
     "race" : "generic",

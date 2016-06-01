@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 3 },
-    { "item" : "liquidhealing", "count" : 200 },
-    { "item" : "redstim", "count" : 4 }
-  ],
-  "output" : { "item" : "lillyhealthpod", "count" : 1 },
-  "groups" : ["craftingfurniture2", "beds", "all", "zorabian", "lilly"]
-}

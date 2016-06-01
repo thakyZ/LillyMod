@@ -1,57 +1,54 @@
 {
-    "objectName" : "zorcanaddon",
-    "colonyTags" : ["crafting"],
-    "rarity" : "Legendary",
-    "category" : "crafting",
-    "price" : 75,
-    "description" : "A module that adds additional zorcan equipment and armour to the replicator.",
-    "shortdescription" : "^orange;Zorcan Addon^white;",
-    "race" : "generic",
+  "objectName" : "zorcanaddon",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "price" : 75,
+  "description" : "A module that adds additional zorcan equipment and armour to the replicator.",
+  "shortdescription" : "^orange;Zorcan Addon^white;",
+  "race" : "generic",
 
-    /*
-    "apexDescription" : "-todo-",
-    "avianDescription" : "-todo-",
-    "floranDescription" : "-todo-",
-    "glitchDescription" : "-todo-",
-    "humanDescription" : "-todo-",
-    "hylotlDescription" : "-todo-",
-    "novakidDescription" : "-todo-",
-     */
+  "apexDescription" : "How useful, this will add additional zorcan equipment and armour to the replicator.",
+  "avianDescription" : "I can use this to add extra equipment and armour to the replicator.",
+  "floranDescription" : "Floran use thisss to add more thingss to replicator.",
+  "glitchDescription" : "Excited. Using this module will add additional zorcan equipment and armour to the replicator.",
+  "humanDescription" : "Using this adds extra zorcan equipment and armour to the replicator!",
+  "hylotlDescription" : "This useful module will add additional zorcan equipment and armour to the replicator.",
+  "novakidDescription" : "This handy ol' module will add even more to the replicator.",
 
-    "placementImage" : "zorcanaddonpreview.png",
-    "placementImagePosition" : [-24, -24],
+  "printable" : false,
 
-    "inventoryIcon" : "zorcanaddonicon.png",
-    "orientations" : [
-        {
-            "direction" : "left",
-            "image" : "zorcanaddon.png:<color>",
+  "placementImage" : "zorcanaddonpreview.png",
+  "placementImagePosition" : [-24, -24],
 
-            "imagePosition" : [-8, 0],
+  "inventoryIcon" : "zorcanaddonicon.png",
+  "orientations" : [{
+      "direction" : "left",
+      "image" : "zorcanaddon.png:<color>",
 
-            "spaces" : [[-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2]],
+      "imagePosition" : [-8, 0],
 
-            "fgAnchors" : [[-1, -4], [0, -4]]
-        }
-    ],
+      "spaces" : [[-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2]],
 
-    "forceFinishAnimationsInInit" : false,
-    "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
-    "animationPosition" : [-8, 0],
-    "animationParts" :
-    {
-        "addon" : "zorcanaddon.png",
-        "addonfullbright" : "zorcanaddonfullbright.png"
-    },
-
-    "scripts" : ["/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua"],
-
-    "addonConfig" :
-    {
-        "isAddons" : [
-            {
-                "name" : "zorcanAddon"
-            }
-        ]
+      "fgAnchors" : [[-1, -4], [0, -4]],
+      "anchorMaterial" : "metamaterial:anviladdonbase"
     }
+  ],
+
+  "forceFinishAnimationsInInit" : false,
+  "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
+  "animationPosition" : [-8, 0],
+  "animationParts" : {
+    "addon" : "zorcanaddon.png",
+    "addonfullbright" : "zorcanaddonfullbright.png"
+  },
+
+  "scripts" : ["/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua"],
+
+  "addonConfig" : {
+    "isAddons" : [{
+        "name" : "zorcanAddon"
+      }
+    ]
+  }
 }

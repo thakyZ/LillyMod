@@ -29,16 +29,30 @@
             "transition" : "idle"
           }
         }
+      },
+      "blade" : {
+        "default" : "active",
+        "states" : {
+          "active" : {
+            "frames" : 6,
+            "cycle" : 1,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : ["glow"],
+              "particleEmittersOn" : [ "idleparticles" ],
+              "persistentSound" : "/sfx/tools/energypickaxe_idle.ogg"
+            }
+          }
+        }
       }
     },
 
     "parts" : {
-      "weaponfullbright" : {
+      "blade" : {
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
           "fullbright" : true,
-          "image" : "voidexcaliburfullbright.png<paletteSwaps>?<directives>?<bladeDirectives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -54,11 +68,11 @@
           }
         }
       },
-      "blade" : {
+      "handle" : {
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
-          "image" : "voidexcalibur.png<paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "<partImage><paletteSwaps>?<directives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -120,56 +134,17 @@
       "offsetRegion" : [0.75, 0.0, 4.25, 5.0],
       "particles" : []
     },
-    "idleparticles1" : {
+    "idleparticles" : {
       "active" : true,
       "transformationGroups" : ["weapon"],
-      "emissionRate" : 10,
+      "emissionRate" : 2,
       "emissionRateVariance" : 5,
-      "offsetRegion" : [0.0, 4.5, 0.0, 3.75],
+      "offsetRegion" : [0.0, 3.5, 0.0, 3.75],
       "particles" : [
-        { "particle" : "voidexcalibur"},
-        { "particle" : "voidexcalibur2"},
-        { "particle" : "voidexcalibur3"},
-        { "particle" : "voidexcalibur4"}
-      ]
-    },
-    "idleparticles2" : {
-      "active" : true,
-      "transformationGroups" : ["weapon"],
-      "emissionRate" : 10,
-      "emissionRateVariance" : 5,
-      "offsetRegion" : [0.0, 4.5, 0.0, 3.75],
-      "particles" : [
-        { "particle" : "voidexcalibur"},
-        { "particle" : "voidexcalibur2"},
-        { "particle" : "voidexcalibur3"},
-        { "particle" : "voidexcalibur4"}
-      ]
-    },
-    "idleparticles3" : {
-      "active" : true,
-      "transformationGroups" : ["weapon"],
-      "emissionRate" : 10,
-      "emissionRateVariance" : 5,
-      "offsetRegion" : [0.0, 3.75, 0.0, 3.0],
-      "particles" : [
-        { "particle" : "voidexcalibur"},
-        { "particle" : "voidexcalibur2"},
-        { "particle" : "voidexcalibur3"},
-        { "particle" : "voidexcalibur4"}
-      ]
-    },
-    "idleparticles4" : {
-      "active" : true,
-      "transformationGroups" : ["weapon"],
-      "emissionRate" : 10,
-      "emissionRateVariance" : 5,
-      "offsetRegion" : [0.0, 2.25, 0.0, 1.5],
-      "particles" : [
-        { "particle" : "voidexcalibur"},
-        { "particle" : "voidexcalibur2"},
-        { "particle" : "voidexcalibur3"},
-        { "particle" : "voidexcalibur4"}
+        { "particle" : "voidswoosh1"},
+        { "particle" : "voidswoosh2"},
+        { "particle" : "voidswoosh3"},
+        { "particle" : "voidswoosh4"}
       ]
     }
   },
@@ -178,12 +153,7 @@
     "glow" : {
       "active" : true,
       "position" : [0.0, 0.0],
-      "color" : [100, 100, 100],
-      "flickerPeriod" : 1,
-      "flickerMinIntensity" : 0.95,
-      "flickerMaxIntensity" : 1.0,
-      "flickerPeriodVariance" : 0.0,
-      "flickerIntensityVariance" : 0.0
+      "color" : [100, 100, 100]
     }
   },
   

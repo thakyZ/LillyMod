@@ -1,13 +1,12 @@
 {
-  "kind" : "voidexcalibur1",
+  "kind" : "voidswoosh1",
   "definition" : {
     "type" : "ember",
     "color" : [200, 200, 200],
     "light" : [100, 100, 100],
     "position" : [0, 0],
     "initialVelocity" : [0, 0],
-    "finalVelocity" : [0, -2.0],
-    "approach" : [0, 50],
+    //"approach" : [0, 50],
     "fade" : 0.3,
     "destructionAction" : "shrink",
     "destructionTime" : 1,
@@ -15,7 +14,9 @@
     "timeToLive" : 1,
     "fullbright" : true,
     "variance" : {
-      "initialVelocity" : [1, 0]
+      "initialVelocity" : [2.0, 2.0],
+      "size" : 1,
+      "position" : [0, 0]
     }
   }
 }

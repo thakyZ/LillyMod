@@ -1,64 +1,69 @@
 {
-    "objectName" : "verticalnovakidshipdoor",
-    "colonyTags" : ["human", "door"],
-    "rarity" : "Common",
+  "objectName" : "verticalnovakidshipdoor",
+  "colonyTags" : ["human", "door"],
+  "rarity" : "Common",
 
-    "category" : "door",
-    "price" : 625,
-    "description" : "A door. Possibly suitable for a spaceship.",
-    "shortdescription" : "Vertical Ship Door",
-    "race" : "human",
-    "printable" : true,
+  "category" : "door",
+  "price" : 625,
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Vertical Ship Door",
+  "race" : "human",
 
-    "apexDescription" : "We use these doors on our ships.",
-    "avianDescription" : "A door.",
-    "floranDescription" : "Door!",
-    "glitchDescription" : "Statement. A door.",
-    "humanDescription" : "Cool door.",
-    "hylotlDescription" : "A basic door.",
-    "novakidDescription" : "A door.",
+  "apexDescription" : "We use these doors on our ships.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
+  "novakidDescription" : "A door.",
 
-    "inventoryIcon" : "novakidshipdooricon.png",
-    "orientations" :
-    [
-        {
-            "dualImage" : "novakidshipdoor.png:default",
-            "imagePosition" : [-16, -6],
-            "animationPosition" : [-17, -6],
-            "flipImages" : true,
-            "direction" : "left",
+  // test
 
-            "spaceScan" : 0.1,
-            "anchors" : ["left", "right"]
-        },
-        {
-            "dualImage" : "novakidshipdoor.png:default",
-            "imagePosition" : [-16, -6],
-            "animationPosition" : [-16, -6],
-            "direction" : "right",
+  /*
+  test
+   */
 
-            "spaceScan" : 0.1,
-            "anchors" : ["left", "right"]
-        }
-    ],
+  "inventoryIcon" : "novakidshipdooricon.png",
+  "orientations" : [{
+      "dualImage" : "novakidshipdoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-17, -6],
+      "flipImages" : true,
+      "direction" : "left",
 
-    "scripts" : ["/objects/wired/door/door.lua"],
-    "scriptDelta" : 5,
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"]
+    }, {
+      "dualImage" : "novakidshipdoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-16, -6],
+      "direction" : "right",
 
-    "animation" : "/objects/wired/door/door.animation",
-    "animationCustom" :
-    {
-        "sounds" :
-        {
-            "open" : ["/sfx/objects/apexcooldoor_open.ogg"],
-            "close" : ["/sfx/objects/apexcooldoor_close.ogg"]
-        }
-    },
-    "animationParts" :
-    {
-        "door" : "novakidshipdoor.png"
-    },
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"]
+    }
+  ],
 
-    "inboundNodes" : [[-2, 0]],
-    "outboundNodes" : [[2, 1]]
+  "scripts" : ["/objects/wired/door/door.lua"],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : ["/sfx/objects/apexcooldoor_open.ogg"],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : ["/sfx/objects/apexcooldoor_close.ogg"],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "novakidshipdoor.png"
+  },
+
+  "inboundNodes" : [[-2, 0]],
+  "outboundNodes" : [[2, 1]]
 }

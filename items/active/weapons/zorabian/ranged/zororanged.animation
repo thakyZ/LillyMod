@@ -20,28 +20,22 @@
     },
 
     "parts" : {
-      "butt" : {
+      "gun" : {
         "properties" : {
           "centered" : true,
           "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
+          "offset" : [0.25, 0.5], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
         }
       },
-      "middle" : {
+      "gunfullbright" : {
         "properties" : {
           "centered" : true,
           "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
-          "transformationGroups" : ["weapon"]
-        }
-      },
-      "barrel" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
-          "transformationGroups" : ["weapon"]
+          "offset" : [0.25, 0.5], // x offset is set dynamically
+          "zLevel" : 1,
+          "transformationGroups" : ["weapon"],
+          "fullbright" : true
         }
       },
       "muzzleFlash" : {
