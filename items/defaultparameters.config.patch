@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/defaultMaxStack", "value" : 9999 }
-]

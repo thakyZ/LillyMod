@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 14 }
-  ],
-  "output" : { "item" : "zorokinepticchest", "count" : 1 },
-  "groups" : ["zorcanmanipulatormachine", "armors", "all", "zorabian", "kineptic"]
-}
