@@ -1,0 +1,38 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-race/human",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 2,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A door. Possibly suitable for a spaceship.",
+      "//name" : "verticalhumanshipdoor",
+      "//shortdescription" : "Vertical Human Ship Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "verticalhumanshipdoor",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "A door. Possibly suitable for a spaceship.",
+      "//name" : "verticalnovakidshipdoor",
+      "//shortdescription" : "Vertical Ship Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "verticalnovakidshipdoor",
+      "tilesetDirection" : "right"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/verticalhumanshipdoor.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/./objects/verticalnovakidshipdoor.png"
+    }
+  },
+  "tilewidth" : 8
+}

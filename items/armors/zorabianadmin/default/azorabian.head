@@ -1,0 +1,66 @@
+{
+  "itemName" : "azorohead",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "^red;- Cheat Item -",
+  "shortdescription" : "^red;Admin ^white;Zorabian Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 500.00
+    },
+    
+    {
+      "stat" : "protection",
+      "amount" : 50000
+    },
+    
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50000
+    },
+    
+    {
+      "stat" : "maxHealth",
+      "amount" : 50000
+    }
+  ],
+
+  "itemTags" : [ "zorabianarmor" ],
+
+  "colorOptions" : [
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ff0000", "4facb2" : "9B0000", "30636c" : "660000" },
+    /* BLACK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "555555", "4facb2" : "383838", "30636c" : "151515" },
+    /* GREY */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "808080", "4facb2" : "555555", "30636c" : "303030" },
+    /* WHITE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "b6b6b6", "4facb2" : "7b7b7b", "30636c" : "373737" },
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ff0000", "4facb2" : "9B0000", "30636c" : "660000" },
+    /* ORANGE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ea9931", "4facb2" : "af4e00", "30636c" : "6e2900" },
+    /* YELLOW */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "e2c344", "4facb2" : "a46e06", "30636c" : "642f00" },
+    /* GREEN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "51bd3b", "4facb2" : "247824", "30636c" : "144216" },
+    /* BLUE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "5588d4", "4facb2" : "344495", "30636c" : "1a1c51" },
+    /* PURPLE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "a451c4", "4facb2" : "6a2284", "30636c" : "320c40" },
+    /* PINK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "d35eae", "4facb2" : "97276d", "30636c" : "59163f" },
+    /* BROWN */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "a47844", "4facb2" : "754c23", "30636c" : "472b13" }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorohead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zorochest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zoropants" } }
+]

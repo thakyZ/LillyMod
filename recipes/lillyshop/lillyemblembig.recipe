@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 50 }
+  ],
+  "output" : { "item" : "lillyemblembig", "count" : 1 },
+  "groups" : ["lillyshop", "decoration", "all"]
+}

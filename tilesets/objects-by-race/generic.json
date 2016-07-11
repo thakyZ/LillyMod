@@ -1,0 +1,157 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-race/generic",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 12,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "Avesmingo, the plant of a 100 different flavours.",
+      "//name" : "avesmingoseed2",
+      "//shortdescription" : "Avesmingo Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "avesmingoseed2",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "Automatoes! Be sure to spit out the screws.",
+      "//name" : "wildautomatoseed2",
+      "//shortdescription" : "Automato Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildautomatoseed2",
+      "tilesetDirection" : "right"
+    },
+    "10" : {
+      "//description" : "Automatoes! Be sure to spit out the screws.",
+      "//name" : "automatoseed2",
+      "//shortdescription" : "Automato Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "automatoseed2",
+      "tilesetDirection" : "right"
+    },
+    "11" : {
+      "//description" : "The paw emblem of Lilly.",
+      "//name" : "lillyemblembig",
+      "//shortdescription" : "Lilly Co. Emblem",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "lillyemblembig",
+      "tilesetDirection" : "right"
+    },
+    "2" : {
+      "//description" : "Genetically enhanced bananas. Smaller trees with bigger fruit.",
+      "//name" : "wildbananaseed2",
+      "//shortdescription" : "Banana Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildbananaseed2",
+      "tilesetDirection" : "right"
+    },
+    "3" : {
+      "//description" : "A module that adds additional zorcan equipment and armour to the replicator.",
+      "//name" : "zorcanaddon",
+      "//shortdescription" : "^orange;Zorcan Addon^white;",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "zorcanaddon",
+      "tilesetDirection" : "left"
+    },
+    "4" : {
+      "//description" : "The paw emblem of Lilly.",
+      "//name" : "lillyemblem",
+      "//shortdescription" : "Lilly Co. Emblem",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "lillyemblem",
+      "tilesetDirection" : "right"
+    },
+    "5" : {
+      "//description" : "Avesmingo, the plant of a 100 different flavours.",
+      "//name" : "wildavesmingoseed2",
+      "//shortdescription" : "Avesmingo Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildavesmingoseed2",
+      "tilesetDirection" : "right"
+    },
+    "6" : {
+      "//description" : "A painting of Lilly. I think she blinked!",
+      "//name" : "paintinglilly",
+      "//shortdescription" : "Lilly Portrait",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-16",
+      "object" : "paintinglilly"
+    },
+    "7" : {
+      "//description" : "Genetically enhanced bananas. Smaller trees with bigger fruit.",
+      "//name" : "bananaseed2",
+      "//shortdescription" : "Banana Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "bananaseed2",
+      "tilesetDirection" : "right"
+    },
+    "8" : {
+      "//description" : "A crate containing almost infiniate cargo",
+      "//name" : "superchest",
+      "//shortdescription" : "Lilly Co. Super chest",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "superchest",
+      "tilesetDirection" : "right"
+    },
+    "9" : {
+      "//description" : "An intergalactic Pet store. It seems an ideal place to stock up on pet suplies.",
+      "//name" : "lillypetshop",
+      "//shortdescription" : "Lilly's Pet Shop",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "0",
+      "object" : "lillypetshop",
+      "tilesetDirection" : "left"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/avesmingoseed2.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/./objects/wildautomatoseed2.png"
+    },
+    "10" : {
+      "image" : "../../../../../tiled/./objects/automatoseed2.png"
+    },
+    "11" : {
+      "image" : "../../../../../tiled/./objects/lillyemblembig.png"
+    },
+    "2" : {
+      "image" : "../../../../../tiled/./objects/wildbananaseed2.png"
+    },
+    "3" : {
+      "image" : "../../../../../tiled/./objects/zorcanaddon.png"
+    },
+    "4" : {
+      "image" : "../../../../../tiled/./objects/lillyemblem.png"
+    },
+    "5" : {
+      "image" : "../../../../../tiled/./objects/wildavesmingoseed2.png"
+    },
+    "6" : {
+      "image" : "../../../../../tiled/./objects/paintinglilly.png"
+    },
+    "7" : {
+      "image" : "../../../../../tiled/./objects/bananaseed2.png"
+    },
+    "8" : {
+      "image" : "../../../../../tiled/./objects/superchest.png"
+    },
+    "9" : {
+      "image" : "../../../../../tiled/./objects/lillypetshop.png"
+    }
+  },
+  "tilewidth" : 8
+}
