@@ -1,0 +1,86 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/seed",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 6,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "Avesmingo, the plant of a 100 different flavours.",
+      "//name" : "avesmingoseed2",
+      "//shortdescription" : "Avesmingo Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "avesmingoseed2",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "Automatoes! Be sure to spit out the screws.",
+      "//name" : "wildautomatoseed2",
+      "//shortdescription" : "Automato Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildautomatoseed2",
+      "tilesetDirection" : "right"
+    },
+    "2" : {
+      "//description" : "Genetically enhanced bananas. Smaller trees with bigger fruit.",
+      "//name" : "wildbananaseed2",
+      "//shortdescription" : "Banana Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildbananaseed2",
+      "tilesetDirection" : "right"
+    },
+    "3" : {
+      "//description" : "Avesmingo, the plant of a 100 different flavours.",
+      "//name" : "wildavesmingoseed2",
+      "//shortdescription" : "Avesmingo Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildavesmingoseed2",
+      "tilesetDirection" : "right"
+    },
+    "4" : {
+      "//description" : "Genetically enhanced bananas. Smaller trees with bigger fruit.",
+      "//name" : "bananaseed2",
+      "//shortdescription" : "Banana Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "bananaseed2",
+      "tilesetDirection" : "right"
+    },
+    "5" : {
+      "//description" : "Automatoes! Be sure to spit out the screws.",
+      "//name" : "automatoseed2",
+      "//shortdescription" : "Automato Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "automatoseed2",
+      "tilesetDirection" : "right"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/avesmingoseed2.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/./objects/wildautomatoseed2.png"
+    },
+    "2" : {
+      "image" : "../../../../../tiled/./objects/wildbananaseed2.png"
+    },
+    "3" : {
+      "image" : "../../../../../tiled/./objects/wildavesmingoseed2.png"
+    },
+    "4" : {
+      "image" : "../../../../../tiled/./objects/bananaseed2.png"
+    },
+    "5" : {
+      "image" : "../../../../../tiled/./objects/automatoseed2.png"
+    }
+  },
+  "tilewidth" : 8
+}

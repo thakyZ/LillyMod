@@ -72,5 +72,5 @@
   
   "interactive" : false,
 
-  "inboundNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ]
 }

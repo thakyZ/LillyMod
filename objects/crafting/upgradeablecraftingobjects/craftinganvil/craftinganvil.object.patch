@@ -9,9 +9,10 @@
                 "animationState" : "zorcan",
                 "interactData" :
                 {
-                    "filter" : [ "craftingzorcan" ]
+                    "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingzorcan" ]
                 }
             }
         }
-    }
+    },
+    {"op" : "add", "path" : "/upgradeStages/2/learnBlueprintsOnPickup/-", "value": "zorcanaddon"}
 ]

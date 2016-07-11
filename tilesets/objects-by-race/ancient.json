@@ -1,0 +1,37 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-race/ancient",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 2,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "Deep shadows stretch away from this flickering torch.",
+      "//name" : "ancientlamp",
+      "//shortdescription" : "Ancient Torch Stand",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "ancientlamp",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "This teleporter should get me back to the Ark.",
+      "//name" : "lillyarkteleporter",
+      "//shortdescription" : "Ark Teleporter",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "lillyarkteleporter"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/ancientlamp.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/./objects/lillyarkteleporter.png"
+    }
+  },
+  "tilewidth" : 8
+}

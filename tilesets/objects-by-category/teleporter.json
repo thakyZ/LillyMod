@@ -1,0 +1,25 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/teleporter",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "This teleporter should get me back to the Ark.",
+      "//name" : "lillyarkteleporter",
+      "//shortdescription" : "Ark Teleporter",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "lillyarkteleporter"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/lillyarkteleporter.png"
+    }
+  },
+  "tilewidth" : 8
+}

@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 4 },
-    { "item" : "refinedviolium", "count" : 4 },
-    { "item" : "refinedferozium", "count" : 4 },
-    { "item" : "plutoniumrod", "count" : 8 },
-    { "item" : "liquidfuel", "count" : 256 }
+    { "item" : "refinedaegisalt", "count" : 8 },
+    { "item" : "refinedviolium", "count" : 8 },
+    { "item" : "refinedferozium", "count" : 8 },
+    { "item" : "solariumstar", "count" : 6 }
   ],
   "output" : { "item" : "zorcancrystal", "count" : 1 },
   "groups" : ["craftingfurnace3", "bars", "all", "zorabian"]

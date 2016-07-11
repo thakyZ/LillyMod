@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "zorcancrystal", "count" : 6 },
-    { "item" : "solariumstar", "count" : 6 },
-    { "item" : "siliconboard", "count" : 2 }
+    { "item" : "zorcancrystal", "count" : 10 },
+    { "item" : "solariumstar", "count" : 6 }
   ],
   "output" : { "item" : "zoroassaultrifle", "count" : 1 },
   "groups" : ["craftingzorcan", "weapons", "all"]

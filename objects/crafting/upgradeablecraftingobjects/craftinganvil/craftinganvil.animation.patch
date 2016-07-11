@@ -25,7 +25,7 @@
         {
             "properties" :
             {
-                "image" : "craftinganvil3.png:<color>.zorcan"
+                "image" : "craftinganvilzorcan.png:<color>.zorcan"
             }
         }
     },
@@ -33,7 +33,7 @@
         {
             "properties":
             {
-                "image": "craftinganvil3lit.png:<color>.zorcan"
+                "image": "craftinganvilzorcanlit.png:<color>.zorcan"
             }
         }
     },
