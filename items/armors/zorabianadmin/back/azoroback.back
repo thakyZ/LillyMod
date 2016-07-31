@@ -2,7 +2,7 @@
   "itemName" : "azoroback",
   "price" : 0,
   "inventoryIcon" : "zorobackicon.png",
-  "tooltipKind" : "baseaugment",
+  "tooltipKind" : "back",
   "rarity" : "Legendary",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
@@ -34,9 +34,6 @@
       "amount" : 1.0
     }
   ],
-
-  "acceptsAugmentType" : "back",
-  "radioMessagesOnPickup" : [ "pickupepp" ],
 
   "colorOptions" : [
     /* RED */
