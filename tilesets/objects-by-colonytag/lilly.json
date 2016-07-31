@@ -1,0 +1,49 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-colonytag/lilly",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 3,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "The paw emblem of Lilly.",
+      "//name" : "lillyemblem",
+      "//shortdescription" : "Lilly Co. Emblem",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "lillyemblem",
+      "tilesetDirection" : "right"
+    },
+    "1" : {
+      "//description" : "A painting of Lilly. I think she blinked!",
+      "//name" : "paintinglilly",
+      "//shortdescription" : "Lilly Portrait",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-16",
+      "object" : "paintinglilly"
+    },
+    "2" : {
+      "//description" : "The paw emblem of Lilly.",
+      "//name" : "lillyemblembig",
+      "//shortdescription" : "Lilly Co. Emblem",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "lillyemblembig",
+      "tilesetDirection" : "right"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/lillyemblem.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/./objects/paintinglilly.png"
+    },
+    "2" : {
+      "image" : "../../../../../tiled/./objects/lillyemblembig.png"
+    }
+  },
+  "tilewidth" : 8
+}

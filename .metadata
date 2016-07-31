@@ -1,0 +1,11 @@
+{
+  "author" : "thakyZ",
+  "description" : "This includes items and objects from thakyZ for the mod pack LillyPak.",
+  "friendlyName" : "LillyMod",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/729548200",
+  "name" : "LillyMod",
+  "requires" : [],
+  "steamContentId" : "729548200",
+  "version" : "2.1.5"
+}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 8 }
-  ],
-  "output" : { "item" : "voidexcalibur", "count" : 1 },
-  "groups" : ["zorcanmanipulatormachine", "weapons", "all", "zorabian"]
-}

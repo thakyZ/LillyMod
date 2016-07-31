@@ -4,9 +4,9 @@
       "enabled" : true,
       "emissionRate" : 5.0,
       "particles" : [{
-          "particle" : "voidswoosh"
+          "particle" : "voidexcalibur"
         }, {
-          "particle" : "voidswoosh"
+          "particle" : "voidexcalibur2"
         }
       ]
     }

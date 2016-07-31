@@ -3,22 +3,23 @@
   "location" : "mouth",
   "definition" : {
     "duration" : 0.05,
+    "durationVariance" : 0.04,
     "loops" : true,
     "start" : {
       "particles" : [
-        ["voidswoosh"], ["voidswoosh"]
+        [ "voidswoosh1" ], [ "voidswoosh2" ], [ "voidswoosh3" ], [ "voidswoosh4" ]
       ],
-      "sounds" : [[]]
+      "sounds" : [ [ ] ]
     },
     "particles" : [
-      ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
+        [ "voidswoosh1" ], [ "voidswoosh2" ], [ "voidswoosh3" ], [ "voidswoosh4" ]
     ],
-    "sounds" : [[]],
+    "sounds" : [ [ ] ],
     "stop" : {
       "particles" : [
-        ["voidswoosh"], ["voidswoosh"], ["voidswoosh"]
+        [ "voidswoosh1" ], [ "voidswoosh2" ], [ "voidswoosh3" ], [ "voidswoosh4" ]
       ],
-      "sounds" : [[]]
+      "sounds" : [ [ ] ]
     }
   }
 }

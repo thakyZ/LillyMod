@@ -4,157 +4,63 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "The armor of the Void, now for Avalis.",
-  "shortdescription" : "^red;Admin ^white;Zorabian Avali Troop Helmet",
+  "category" : "headarmour",
+  "description" : "^red;- Cheat Item -",
+  "shortdescription" : "^red;Admin ^white;Zorabian Avali Helmet",
   "tooltipKind" : "armor",
-
-  "itemTags" : ["adminzorabianarmor"],
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "statusEffects" :
-  [{
+  "statusEffects" : [
+    {
       "stat" : "powerMultiplier",
       "baseMultiplier" : 500.00
-    }, {
+    },
+    
+    {
       "stat" : "protection",
       "amount" : 50000
-    }, {
+    },
+    
+    {
       "stat" : "maxEnergy",
       "amount" : 50000
-    }, {
+    },
+    
+    {
       "stat" : "maxHealth",
       "amount" : 50000
-    }, {
-      "stat" : "madtulip_vacuum_chest_immunity",
-      "amount" : 1
-    },
-    "glow"
+    }
   ],
 
-  "colorOptions" :
-  [
-    /* GHOST WHITE */
-    {
-      "ffca8a" : "c7c7c7",
-      "e0975c" : "bcbcbc",
-      "a85636" : "999999",
-      "6f2919" : "636363",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
-    /* BLACK */
-    {
-      "ffca8a" : "838383",
-      "e0975c" : "555555",
-      "a85636" : "383838",
-      "6f2919" : "151515",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
-    /* GREY */
-    {
-      "ffca8a" : "b5b5b5",
-      "e0975c" : "808080",
-      "a85636" : "555555",
-      "6f2919" : "303030",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
-    /* WHITE */
-    {
-      "ffca8a" : "e6e6e6",
-      "e0975c" : "b6b6b6",
-      "a85636" : "7b7b7b",
-      "6f2919" : "373737",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+  "itemTags" : [ "zorabianarmor" ],
+
+  "colorOptions" : [
     /* RED */
-    {
-      "ffca8a" : "f4988c",
-      "e0975c" : "d93a3a",
-      "a85636" : "932625",
-      "6f2919" : "601119",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ff0000", "4facb2" : "9B0000", "30636c" : "660000" },
+    /* BLACK */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "555555", "4facb2" : "383838", "30636c" : "151515" },
+    /* GREY */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "808080", "4facb2" : "555555", "30636c" : "303030" },
+    /* WHITE */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "b6b6b6", "4facb2" : "7b7b7b", "30636c" : "373737" },
+    /* RED */
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ff0000", "4facb2" : "9B0000", "30636c" : "660000" },
     /* ORANGE */
-    {
-      "ffca8a" : "ffd495",
-      "e0975c" : "ea9931",
-      "a85636" : "af4e00",
-      "6f2919" : "6e2900",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "ea9931", "4facb2" : "af4e00", "30636c" : "6e2900" },
     /* YELLOW */
-    {
-      "ffca8a" : "ffffa7",
-      "e0975c" : "e2c344",
-      "a85636" : "a46e06",
-      "6f2919" : "642f00",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "e2c344", "4facb2" : "a46e06", "30636c" : "642f00" },
     /* GREEN */
-    {
-      "ffca8a" : "b2e89d",
-      "e0975c" : "51bd3b",
-      "a85636" : "247824",
-      "6f2919" : "144216",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "51bd3b", "4facb2" : "247824", "30636c" : "144216" },
     /* BLUE */
-    {
-      "ffca8a" : "96cbe7",
-      "e0975c" : "5588d4",
-      "a85636" : "344495",
-      "6f2919" : "1a1c51",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "5588d4", "4facb2" : "344495", "30636c" : "1a1c51" },
     /* PURPLE */
-    {
-      "ffca8a" : "d29ce7",
-      "e0975c" : "a451c4",
-      "a85636" : "6a2284",
-      "6f2919" : "320c40",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "a451c4", "4facb2" : "6a2284", "30636c" : "320c40" },
     /* PINK */
-    {
-      "ffca8a" : "eab3db",
-      "e0975c" : "d35eae",
-      "a85636" : "97276d",
-      "6f2919" : "59163f",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    },
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "d35eae", "4facb2" : "97276d", "30636c" : "59163f" },
     /* BROWN */
-    {
-      "ffca8a" : "ccae7c",
-      "e0975c" : "a47844",
-      "a85636" : "754c23",
-      "6f2919" : "472b13",
-      "45d297" : "ff0000",
-      "1b8d78" : "9B0000",
-      "1c3b42" : "660000"
-    }
+    { "ffca8a" : "c7c7c7", "e0975c" : "bcbcbc", "a85636" : "999999", "6f2919" : "636363", "a8e6e2" : "a47844", "4facb2" : "754c23", "30636c" : "472b13" }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "name" : "lilly",
+  "category" : "petcat",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "lilly.png"
+  }
+}

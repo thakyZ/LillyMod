@@ -1,0 +1,26 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/crafting",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A module that adds additional zorcan equipment and armour to the replicator.",
+      "//name" : "zorcanaddon",
+      "//shortdescription" : "^orange;Zorcan Addon^white;",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "zorcanaddon",
+      "tilesetDirection" : "left"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/zorcanaddon.png"
+    }
+  },
+  "tilewidth" : 8
+}

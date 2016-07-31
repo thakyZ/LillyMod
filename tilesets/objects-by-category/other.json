@@ -1,0 +1,26 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-category/other",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "An intergalactic Pet store. It seems an ideal place to stock up on pet suplies.",
+      "//name" : "lillypetshop",
+      "//shortdescription" : "Lilly's Pet Shop",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "0",
+      "object" : "lillypetshop",
+      "tilesetDirection" : "left"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/./objects/lillypetshop.png"
+    }
+  },
+  "tilewidth" : 8
+}
