@@ -1,11 +1,11 @@
 {
   "itemName" : "zorcancrystal",
-  "price" : 100,
+  "price" : 2000,
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "zorcancrystal.png",
   "description" : "It's a metal alloy in a crystal form, neat!",
-  "shortdescription" : "^purple;Zorcan Crystal",
+  "shortdescription" : "^purple;Zorcan Crystal^reset;",
   "itemTags" : [ "reagent" ],
   "fuelAmount" : 250
 }

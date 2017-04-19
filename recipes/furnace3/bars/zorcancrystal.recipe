@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 8 },
-    { "item" : "refinedviolium", "count" : 8 },
-    { "item" : "refinedferozium", "count" : 8 },
-    { "item" : "solariumstar", "count" : 6 }
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "refinedferozium", "count" : 1 },
+    { "item" : "solariumstar", "count" : 1 }
   ],
   "output" : { "item" : "zorcancrystal", "count" : 1 },
   "groups" : ["craftingfurnace3", "bars", "all", "zorabian"]
