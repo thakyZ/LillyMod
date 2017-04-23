@@ -1,11 +1,1 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 10 },
-    { "item" : "solariumstar", "count" : 10 },
-    { "item" : "canvas", "count" : 1 },
-    { "item" : "syntheticmaterial", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "zoroavalichest", "count" : 1 },
-  "groups" : ["craftingzorcan", "armours", "all"]
-}
+{"input":[{"item":"zorcancrystal","count":10},{"item":"zeraalloy","count":10},{"item":"canvas","count":1},{"item":"syntheticmaterial","count":1}],"duration":5,"output":{"item":"zoroavalichest","count":1},"groups":["craftingzorcan","armours","all"]}

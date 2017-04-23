@@ -1,11 +1,1 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 3000 },
-    { "item" : "teleportercore", "count" : 1 }
-  ],
-  "output" : {
-    "item" : "lillyarkteleporter",
-    "count" : 1
-  },
-  "groups" : [ "teleshop" ]
-}
+{"input":[{"item":"money","count":3000},{"item":"teleportercore","count":1}],"output":{"item":"lillyarkteleporter","count":1},"groups":["teleshop"]}

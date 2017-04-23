@@ -1,11 +1,1 @@
-{
-  "input" : [
-    { "item" : "heatprotectionback", "count" : 1 },
-    { "item" : "zorcancrystal", "count" : 6 },
-    { "item" : "battery", "count" : 1 },
-    { "item" : "wire", "count" : 4 },
-    { "item" : "phasematter", "count" : 1 }
-  ],
-  "output" : { "item" : "zoroback", "count" : 1 },
-  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
-}
+{"input":[{"item":"zorcancrystal","count":10},{"item":"zeraalloy","count":10},{"item":"eppcapacitor","count":4},{"item":"battery","count":1}],"output":{"item":"zoroback","count":1},"groups":["craftinganvil3","hazardgear","all"]}

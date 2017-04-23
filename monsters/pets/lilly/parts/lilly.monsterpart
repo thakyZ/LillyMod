@@ -1,10 +1,1 @@
-{
-    "name" : "petlilly",
-    "category" : "petlilly",
-    "type" : "body",
-
-    "frames" :
-    {
-        "body" : "lilly.png"
-    }
-}
+{"name":"petlilly","category":"petlilly","type":"body","frames":{"body":"lilly.png"}}

@@ -1,10 +1,1 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 4 },
-    { "item" : "solariumstar", "count" : 4 },
-    { "item" : "canvas", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "zoropants", "count" : 1 },
-  "groups" : [ "craftingzorcan", "armours", "all" ]
-}
+{"input":[{"item":"zorcancrystal","count":4},{"item":"zeraalloy","count":4},{"item":"canvas","count":1}],"duration":5,"output":{"item":"zoropants","count":1},"groups":["craftingzorcan","armours","all"]}

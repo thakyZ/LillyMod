@@ -1,11 +1,1 @@
-{
-  "itemName" : "zorcancrystal",
-  "price" : 100,
-  "rarity" : "Legendary",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "zorcancrystal.png",
-  "description" : "It's a metal alloy in a crystal form, neat!",
-  "shortdescription" : "^purple;Zorcan Crystal",
-  "itemTags" : [ "reagent" ],
-  "fuelAmount" : 250
-}
+{"itemName":"zorcancrystal","price":2000,"rarity":"Legendary","category":"craftingMaterial","inventoryIcon":"zorcancrystal.png","description":"It's a metal alloy in a crystal form, neat!","shortdescription":"^purple;Zorcan Crystal^reset;","itemTags":["reagent"],"fuelAmount":250,"learnBlueprintsOnPickup":["eppcapacitor","zeraalloy"]}

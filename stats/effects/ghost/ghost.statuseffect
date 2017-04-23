@@ -1,13 +1,1 @@
-{
-  "name" : "ghost",
-  "effectConfig" : {},
-  "defaultDuration" : 10,
-
-  "scripts" :
-  [
-    "ghost.lua"
-  ],
-
-  "label" : "Ghostly",
-  "icon" : "/interface/statuses/nova.png"
-}
+{"name":"ghost","effectConfig":{},"defaultDuration":10,"scripts":["ghost.lua"],"label":"Ghostly","icon":"/interface/statuses/nova.png"}

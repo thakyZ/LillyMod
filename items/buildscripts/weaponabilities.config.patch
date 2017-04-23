@@ -1,4 +1,1 @@
-[
-  { "op" : "add", "path" : "/zflashlight", "value" : "/items/active/weapons/zorabian/ranged/abilities/zflashlight/zflashlight.weaponability" },
-  { "op" : "add", "path" : "/zflipslash", "value" : "/items/active/weapons/zorabian/melee/abilities/zflipslash/zflipslash.weaponability" }
-]
+[{"op":"add","path":"/zflashlight","value":"/items/active/weapons/zorabian/ranged/abilities/zflashlight/zflashlight.weaponability"},{"op":"add","path":"/zflipslash","value":"/items/active/weapons/zorabian/melee/abilities/zflipslash/zflipslash.weaponability"}]
