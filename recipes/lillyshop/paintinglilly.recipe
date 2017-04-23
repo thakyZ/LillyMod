@@ -1,7 +1,1 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 100 }
-  ],
-  "output" : { "item" : "paintinglilly", "count" : 1 },
-  "groups" : ["lillyshop", "decoration", "all"]
-}
+{"input":[{"item":"money","count":100}],"output":{"item":"paintinglilly","count":1},"groups":["lillyshop","craftingfurniture2","decoration","all"]}

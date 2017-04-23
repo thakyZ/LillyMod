@@ -1,9 +1,1 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 10 },
-    { "item" : "solariumstar", "count" : 10 },
-    { "item" : "battery", "count" : 1 }
-  ],
-  "output" : { "item" : "voidexcalibur", "count" : 1 },
-  "groups" : [ "craftingzorcan", "weapons", "all" ]
-}
+{"input":[{"item":"zorcancrystal","count":10},{"item":"zeraalloy","count":10},{"item":"solariumstar","count":5}],"output":{"item":"voidexcalibur","count":1},"groups":["craftingzorcan","weapons","all"]}

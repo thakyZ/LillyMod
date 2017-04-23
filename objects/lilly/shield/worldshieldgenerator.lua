@@ -1,6 +1,6 @@
 function init()
   self.dungeonId = world.dungeonId(object.position())
-  
+
   object.setInteractive(config.getParameter("interactive", true) and not (object.inputNodeCount() > 0 and object.isInputNodeConnected(0)))
 
   if storage.state == nil then

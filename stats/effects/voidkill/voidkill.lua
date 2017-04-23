@@ -4,7 +4,7 @@ function init()
   animator.setParticleEmitterOffsetRegion("sparks", mcontroller.boundBox())
   animator.setParticleEmitterActive("sparks", true)
   effect.setParentDirectives("fade=333333=0.25")
-  
+
   script.setUpdateDelta(5)
 
   self.tickTime = 1.0
@@ -47,5 +47,5 @@ function update(dt)
 end
 
 function uninit()
-  
+
 end

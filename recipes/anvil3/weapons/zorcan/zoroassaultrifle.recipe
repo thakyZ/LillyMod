@@ -1,8 +1,1 @@
-{
-  "input" : [
-    { "item" : "zorcancrystal", "count" : 10 },
-    { "item" : "solariumstar", "count" : 6 }
-  ],
-  "output" : { "item" : "zoroassaultrifle", "count" : 1 },
-  "groups" : ["craftingzorcan", "weapons", "all"]
-}
+{"input":[{"item":"zorcancrystal","count":10},{"item":"zeraalloy","count":6},{"item":"battery","count":1},{"item":"siliconboard","count":2}],"output":{"item":"zoroassaultrifle","count":1},"groups":["craftingzorcan","weapons","all"]}

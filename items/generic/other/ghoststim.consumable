@@ -1,17 +1,1 @@
-{
-  "itemName" : "ghoststim",
-  "rarity" : "Rare",
-  "price" : 1000,
-  "category" : "medicine",
-  "inventoryIcon" : "ghoststim.png",
-  "description" : "A stimpack full of ghostly liquid souls",
-  "shortdescription" : "Ghostly Stim Pack",
-  "effects" : [ [
-      {
-        "effect" : "ghost",
-        "duration" : 60
-      }
-    ] ],
-  "emote" : "",
-  "emitters" : [ "stimuse" ]
-}
+{"itemName":"ghoststim","rarity":"Rare","price":1000,"category":"medicine","inventoryIcon":"ghoststim.png","description":"A stimpack full of ghostly liquid souls","shortdescription":"Ghostly Stim Pack","effects":[[{"effect":"ghost","duration":60}]],"emote":"","emitters":["stimuse"]}
