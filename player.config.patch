@@ -1,1 +1,86 @@
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"lillyemblem"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"lillyemblembig"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"paintinglilly"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"oscarstone"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wilsonstone"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"wesgustone"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zorcancrystal"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zeraalloy"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"eppcapacitor"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"voidexcalibur"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zoroassaultrifle"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zoroback"}}]
+[
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "lillyemblem"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "lillyemblembig"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "paintinglilly"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "oscarstone"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "wilsonstone"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "wesgustone"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "zorcancrystal"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "zeraalloy"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "eppcapacitor"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "voidexcalibur"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "zoroassaultrifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "zoroback"
+    }
+  }
+]
