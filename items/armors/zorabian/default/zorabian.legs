@@ -1,1 +1,60 @@
-{"itemName":"zoropants","price":675,"inventoryIcon":"icons.png:pants","maxStack":1,"rarity":"Legendary","category":"legarmour","description":"These leggings seems to be able to make me run faster.","shortdescription":"Zorabian Leggings","tooltipKind":"armor","maleFrames":"pants.png","femaleFrames":"pants.png","statusEffects":[{"stat":"powerMultiplier","baseMultiplier":2.7},{"stat":"protection","amount":36},{"stat":"maxEnergy","amount":32},{"stat":"maxHealth","amount":36}],"itemTags":["zorabianarmor"],"colorOptions":[{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"ff0000","4facb2":"9B0000","30636c":"660000"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"555555","4facb2":"383838","30636c":"151515"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"808080","4facb2":"555555","30636c":"303030"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"b6b6b6","4facb2":"7b7b7b","30636c":"373737"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"ff0000","4facb2":"9B0000","30636c":"660000"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"ea9931","4facb2":"af4e00","30636c":"6e2900"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"e2c344","4facb2":"a46e06","30636c":"642f00"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"51bd3b","4facb2":"247824","30636c":"144216"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"5588d4","4facb2":"344495","30636c":"1a1c51"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"a451c4","4facb2":"6a2284","30636c":"320c40"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"d35eae","4facb2":"97276d","30636c":"59163f"},{"ffca8a":"c7c7c7","e0975c":"bcbcbc","a85636":"999999","6f2919":"636363","a8e6e2":"a47844","4facb2":"754c23","30636c":"472b13"}]}
+{
+  "itemName": "zoropants",
+  "price": 675,
+  "inventoryIcon": "icons.png:pants",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "legarmour",
+  "description": "These leggings seems to be able to make me run faster.",
+  "shortdescription": "Zorabian Leggings",
+  "tooltipKind": "armor",
+  "maleFrames": "pants.png",
+  "femaleFrames": "pants.png",
+  "statusEffects": [
+    {
+      "stat": "powerMultiplier",
+      "baseMultiplier": 2.7
+    },
+    {
+      "stat": "protection",
+      "amount": 36
+    },
+    {
+      "stat": "maxEnergy",
+      "amount": 32
+    },
+    {
+      "stat": "maxHealth",
+      "amount": 36
+    }
+  ],
+  "itemTags": [
+    "zorabianarmor"
+  ],
+  "colorOptions": [
+    // RED
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "f4988c", "4facb2": "d93a3a", "30636c": "932625", "233c43": "601119" },
+    // BLACK
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "151515", "4facb2": "383838", "30636c": "555555", "233c43": "838383" },
+    // GREY
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "555555", "4facb2": "d93a3a", "30636c": "808080", "233c43": "b5b5b5" },
+    // WHITE
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "e6e6e6", "4facb2": "b6b6b6", "30636c": "7b7b7b", "233c43": "373737" },
+    // RED
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "f4988c", "4facb2": "d93a3a", "30636c": "932625", "233c43": "601119" },
+    // ORANGE
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "ffd495", "4facb2": "ea9931", "30636c": "af4e00", "233c43": "6e2900" },
+    // YELLOW
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "ffffa7", "4facb2": "e2c344", "30636c": "a46e06", "233c43": "642f00" },
+    // GREEN
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "b2e89d", "4facb2": "51bd3b", "30636c": "247824", "233c43": "144216" },
+    // BLUE
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "96cbe7", "4facb2": "5588d4", "30636c": "344495", "233c43": "1a1c51" },
+    // PURPLE
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "d29ce7", "4facb2": "a451c4", "30636c": "6a2284", "233c43": "320c40" },
+    // PINK
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "eab3db", "4facb2": "d35eae", "30636c": "97276d", "233c43": "59163f" },
+    // BROWN
+    { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "ccae7c", "4facb2": "a47844", "30636c": "754c23", "233c43": "472b13" }
+  ]
+}
