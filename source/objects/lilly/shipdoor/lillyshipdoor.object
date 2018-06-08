@@ -1,0 +1,41 @@
+{
+  "objectName" : "lillyshipdoor",
+  "colonyTags" : ["lilly","misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "A door that is also a teleporter!",
+  "shortdescription" : "Lilly Co. Ship Door",
+  "price" : 3000,
+  "printable" : true,
+
+  "category" : "teleporter",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lillyshipdoor.png:<color>.<frame>", "fullbright" : true }, { "image" : "lillyshipdoorlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "detectArea" : [ [-2, 0], [2, 5] ]
+    }
+  ],
+
+  "teleporterFootPosition" : [0, 0],
+
+  "animation" : "/objects/lilly/shipdoor/lillyshipdoor.animation",
+  "animationParts" : {
+    "bg" : "lillyshipdoor.png",
+    "fg" : "lillyshipdoorlit.png"
+  },
+
+  "scripts" : [ "/objects/lilly/shipdoor/lillyshipdoor.lua" ],
+  "scriptDelta" : 20
+}

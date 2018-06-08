@@ -1,0 +1,35 @@
+{
+  "frameGrid" : {
+    "size" : [32, 40],
+    "dimensions" : [4, 3],
+    "names" : [
+      [ "default.open.1", "default.open.2", "default.open.3", "default.open.4" ],
+      [ "blue.open.1", "blue.open.2", "blue.open.3", "blue.open.4" ],
+      [ "orange.open.1", "orange.open.2", "orange.open.3", "orange.open.4" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "default.off",
+    "default.off" : "default.open.1",
+    "default.on" : "default.open.4",
+    "default.close.1" : "default.open.4",
+    "default.close.2" : "default.open.3",
+    "default.close.3" : "default.open.2",
+    "default.close.4" : "default.open.1",
+    "blue.default" : "blue.off",
+    "blue.off" : "blue.open.1",
+    "blue.on" : "blue.open.4",
+    "blue.close.1" : "blue.open.4",
+    "blue.close.2" : "blue.open.3",
+    "blue.close.3" : "blue.open.2",
+    "blue.close.4" : "blue.open.1",
+    "orange.default" : "orange.off",
+    "orange.off" : "orange.open.1",
+    "orange.on" : "orange.open.4",
+    "orange.close.1" : "orange.open.4",
+    "orange.close.2" : "orange.open.3",
+    "orange.close.3" : "orange.open.2",
+    "orange.close.4" : "orange.open.1"
+  }
+}
