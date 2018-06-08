@@ -1,1 +1,49 @@
-{"itemName":"voidexcalibur","price":1024,"level":6,"maxStack":1,"rarity":"Legendary","description":"It feels very light, even though it can cut through anything.","shortdescription":"Void Excalibur","tooltipKind":"sword","category":"broadsword","twoHanded":true,"itemTags":["weapon","melee","broadsword"],"inventoryIcon":"voidexcaliburicon.png","animation":"/items/active/weapons/zorabian/melee/voidexcalibur/voidexcalibur.animation","animationParts":{"blade":"voidexcaliburfullbright.png","handle":"voidexcalibur.png"},"animationCustom":{"sounds":{"fire":["/sfx/melee/laser_weapon_swing1.ogg","/sfx/melee/laser_weapon_swing2.ogg","/sfx/melee/laser_weapon_swing3.ogg"],"fire2":["/sfx/melee/laser_weapon_swing1.ogg","/sfx/melee/laser_weapon_swing2.ogg","/sfx/melee/laser_weapon_swing3.ogg"],"fire3":["/sfx/melee/laser_weapon_swing1.ogg","/sfx/melee/laser_weapon_swing2.ogg","/sfx/melee/laser_weapon_swing3.ogg"]}},"scripts":["/items/active/weapons/melee/meleeweapon.lua"],"elementalType":"physical","primaryAbilityType":"broadswordcombo","primaryAttack":{"fireTime":0.83,"baseDps":16},"altAbilityType":"zflipslash","builder":"/items/buildscripts/buildunrandweapon.lua"}
+{
+  "itemName": "voidexcalibur",
+  "price": 1024,
+  "level": 6,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "It feels very light, even though it can cut through anything.",
+  "shortdescription": "Void Excalibur",
+  "tooltipKind": "sword",
+  "category": "broadsword",
+  "twoHanded": true,
+  "itemTags": [ "weapon", "melee", "broadsword" ],
+  "inventoryIcon": "voidexcaliburicon.png",
+  "animation": "/items/active/weapons/zorabian/melee/voidexcalibur/voidexcalibur.animation",
+  "animationParts": {
+    "blade": "voidexcaliburfullbright.png",
+    "handle": "voidexcalibur.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": [
+        "/sfx/melee/laser_weapon_swing1.ogg",
+        "/sfx/melee/laser_weapon_swing2.ogg",
+        "/sfx/melee/laser_weapon_swing3.ogg"
+      ],
+      "fire2": [
+        "/sfx/melee/laser_weapon_swing1.ogg",
+        "/sfx/melee/laser_weapon_swing2.ogg",
+        "/sfx/melee/laser_weapon_swing3.ogg"
+      ],
+      "fire3": [
+        "/sfx/melee/laser_weapon_swing1.ogg",
+        "/sfx/melee/laser_weapon_swing2.ogg",
+        "/sfx/melee/laser_weapon_swing3.ogg"
+      ]
+    }
+  },
+  "scripts": [
+    "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbilityType": "broadswordcombo",
+  "primaryAttack": {
+    "fireTime": 0.83,
+    "baseDps": 16
+  },
+  "altAbilityType": "zflipslash",
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

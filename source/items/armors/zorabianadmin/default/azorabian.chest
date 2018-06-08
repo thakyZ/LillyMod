@@ -6,7 +6,7 @@
   "rarity": "Legendary",
   "category": "chestarmour",
   "description": "^red;- Cheat Item -",
-  "shortdescription": "^red;Admin ^white;Zorabian Chestplate",
+  "shortdescription": "^red;Zorabian Chestplate",
   "tooltipKind": "armor",
   "maleFrames": {
     "body": "chestm.png",
@@ -19,26 +19,12 @@
     "frontSleeve": "fsleeve.png"
   },
   "statusEffects": [
-    {
-      "stat": "powerMultiplier",
-      "baseMultiplier": 500
-    },
-    {
-      "stat": "protection",
-      "amount": 50000
-    },
-    {
-      "stat": "maxEnergy",
-      "amount": 50000
-    },
-    {
-      "stat": "maxHealth",
-      "amount": 50000
-    }
+    { "stat": "powerMultiplier", "baseMultiplier": 500 },
+    { "stat": "protection", "amount": 50000 },
+    { "stat": "maxEnergy", "amount": 50000 },
+    { "stat": "maxHealth", "amount": 50000 }
   ],
-  "itemTags": [
-    "zorabianarmor"
-  ],
+  "itemTags": [ "zorabianarmor" ],
   "colorOptions": [
     // RED
     { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "f4988c", "4facb2": "d93a3a", "30636c": "932625", "233c43": "601119" },

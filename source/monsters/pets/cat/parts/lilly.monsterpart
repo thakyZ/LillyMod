@@ -1,1 +1,8 @@
-{"name":"lilly","category":"petcat","type":"body","frames":{"body":"lilly.png"}}
+{
+  "name":"lilly",
+  "category": "petcat",
+  "type": "body",
+  "frames": {
+    "body": "lilly.png"
+  }
+}

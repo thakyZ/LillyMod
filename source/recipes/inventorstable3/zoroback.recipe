@@ -1,1 +1,10 @@
-{"input":[{"item":"zorcancrystal","count":10},{"item":"zeraalloy","count":10},{"item":"eppcapacitor","count":4},{"item":"battery","count":1}],"output":{"item":"zoroback","count":1},"groups":["craftinganvil3","hazardgear","all"]}
+{
+  "input": [
+    { "item": "zorcancrystal", "count": 10 },
+    { "item": "zeraalloy", "count": 10 },
+    { "item": "eppcapacitor", "count": 4 },
+    { "item": "battery", "count": 1 }
+  ],
+  "output": { "item": "zoroback", "count": 1 },
+  "groups": [ "craftinganvil3", "hazardgear", "all" ]
+}

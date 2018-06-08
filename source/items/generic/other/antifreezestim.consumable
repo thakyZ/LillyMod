@@ -1,1 +1,16 @@
-{"itemName":"antifreezestim","rarity":"Rare","price":250,"category":"medicine","inventoryIcon":"antifreezestim.png","description":"A stimpack full of anti freeze","shortdescription":"Anti Freeze Stim Pack","effects":[[{"effect":"antifreeze","duration":1}]],"emote":"","emitters":["stimuse"]}
+{
+  "itemName": "antifreezestim",
+  "rarity": "Rare",
+  "price": 250,
+  "category": "medicine",
+  "inventoryIcon": "antifreezestim.png",
+  "description": "A stimpack full of anti freeze",
+  "shortdescription": "Anti Freeze Stim Pack",
+  "effects": [
+    [
+      { "effect": "antifreeze", "duration": 1}
+    ]
+  ],
+  "emote":"",
+  "emitters": [ "stimuse" ]
+}

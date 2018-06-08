@@ -19,7 +19,7 @@
     {
       "dualImage" : "vipeanutbutter.png",
 
-      "imagePosition" : [0, 0],
+      "imagePosition" : [ 0, 0 ],
       "frames" : 1,
       "animationCycle" : 1,
 

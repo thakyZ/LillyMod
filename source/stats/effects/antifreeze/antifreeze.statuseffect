@@ -1,1 +1,7 @@
-{"name":"antifreeze","effectConfig":{},"scripts":["antifreeze.lua"],"label":"Anti Freeze","icon":"/interface/statuses/antidote.png"}
+{
+  "name": "antifreeze",
+  "effectConfig": {},
+  "scripts": [ "antifreeze.lua" ],
+  "label": "Anti Freeze",
+  "icon": "/interface/statuses/antidote.png"
+}

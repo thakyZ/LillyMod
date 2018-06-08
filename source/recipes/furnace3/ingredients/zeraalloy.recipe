@@ -1,1 +1,9 @@
-{"input":[{"item":"zorcancrystal","count":2},{"item":"durasteelbar","count":1},{"item":"titaniumbar","count":1}],"output":{"item":"zeraalloy","count":1},"groups":["craftingfurnace3","ingredients","all"]}
+{
+  "input": [
+    { "item": "zorcancrystal", "count": 2 },
+    { "item": "durasteelbar", "count": 1 },
+    { "item": "titaniumbar", "count": 1 }
+  ],
+  "output": { "item": "zeraalloy", "count": 1 },
+  "groups": [ "craftingfurnace3", "ingredients", "all" ]
+}

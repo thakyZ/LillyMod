@@ -1,1 +1,68 @@
-{"itemName":"zoroassaultrifle","price":100,"inventoryIcon":"zoroassaultrifle.png","maxStack":1,"rarity":"Legendary","description":"The best automatic rifle made by the Zorabians.","shortdescription":"Zorabian Assault Rifle","level":4,"tooltipKind":"gun","category":"uniqueWeapon","itemTags":["weapon","ranged","assaultrifle"],"twoHanded":true,"animation":"/items/active/weapons/zorabian/ranged/zororanged.animation","animationParts":{"gun":"zoroassaultrifle.png","gunfullbright":"zoroassaultriflefullbright.png","muzzleFlash":""},"animationCustom":{"sounds":{"fire":["/sfx/gun/plasma_ar1.ogg"]}},"baseOffset":[0.85,0.95],"muzzleOffset":[2.2,0],"scripts":["/items/active/weapons/ranged/gun.lua"],"elementalType":"physical","primaryAbility":{"scripts":["/items/active/weapons/ranged/gunfire.lua"],"class":"GunFire","fireTime":0.13,"baseDps":6.0,"energyUsage":15,"inaccuracy":0.008,"projectileCount":1,"fireType":"auto","projectileType":"voidplasma","projectileParameters":{"knockback":20},"stances":{"idle":{"armRotation":0,"weaponRotation":0,"twoHanded":true,"allowRotate":true,"allowFlip":true},"fire":{"duration":0,"armRotation":5,"weaponRotation":5,"twoHanded":true,"allowRotate":false,"allowFlip":false},"cooldown":{"duration":0.25,"armRotation":5,"weaponRotation":5,"twoHanded":true,"allowRotate":false,"allowFlip":false}}},"altAbilityType":"zflashlight","builder":"/items/buildscripts/buildunrandweapon.lua"}
+{
+  "itemName": "zoroassaultrifle",
+  "price": 100,
+  "inventoryIcon": "zoroassaultrifle.png",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "The best automatic rifle made by the Zorabians.",
+  "shortdescription": "Zorabian Assault Rifle",
+  "level": 4,
+  "tooltipKind": "gun",
+  "category": "uniqueWeapon",
+  "itemTags": [ "weapon", "ranged", "assaultrifle" ],
+  "twoHanded": true,
+  "animation": "/items/active/weapons/zorabian/ranged/zororanged.animation",
+  "animationParts": {
+    "gun": "zoroassaultrifle.png",
+    "gunfullbright": "zoroassaultriflefullbright.png",
+    "muzzleFlash": ""
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": [ "/sfx/gun/plasma_ar1.ogg" ]
+    }
+  },
+  "baseOffset": [ 0.85, 0.95 ],
+  "muzzleOffset": [ 2.2, 0 ],
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+  "elementalType":"physical",
+  "primaryAbility": {
+    "scripts": [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class": "GunFire",
+    "fireTime": 0.13,
+    "baseDps": 6.0,
+    "energyUsage": 15,
+    "inaccuracy": 0.008,
+    "projectileCount": 1,
+    "fireType": "auto",
+    "projectileType": "voidplasma",
+    "projectileParameters": { "knockback":20 },
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "cooldown": {
+        "duration": 0.25,
+        "armRotation": 5,
+        "weaponRotation": 5,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  },
+  "altAbilityType": "zflashlight",
+  "builder":"/items/buildscripts/buildunrandweapon.lua"
+}

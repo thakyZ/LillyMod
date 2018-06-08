@@ -9,28 +9,26 @@
   "race" : "generic",
 
   "inventoryIcon" : "pethouseLillyIcon.png",
-    "scripts" : [
-    "/objects/spawner/shipPetSpawner.lua"
-  ],
+  "scripts" : [ "/objects/spawner/shipPetSpawner.lua" ],
   "scriptDelta" : 20,
   "shipPetType" : "petlilly",
   "petParameters" : [],
   "orientations" : [
     {
       "image" : "pethouseLilly.png",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [ -8, 0 ],
       "direction" : "left",
       "flipImages" : true,
 
-      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "spaces" : [ [ -1, 0 ], [ 0, 0 ], [ 1, 0 ], [ -1, 1 ], [ 0, 1 ], [ 1, 1 ], [ -1, 2 ], [ 0, 2 ], [ 1, 2 ] ],
       "anchors" : [ "bottom" ]
     },
     {
       "image": "pethouseLilly.png",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [ -8, 0 ],
       "direction" : "right",
 
-      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "spaces" : [ [ -1, 0 ], [ 0, 0 ], [ 1, 0 ], [ -1, 1 ], [ 0, 1 ], [ 1, 1 ], [ -1, 2 ], [ 0, 2 ], [ 1, 2 ] ],
       "anchors" : [ "bottom" ]
     }
   ]

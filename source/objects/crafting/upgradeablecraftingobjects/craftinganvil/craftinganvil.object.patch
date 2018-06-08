@@ -1,1 +1,14 @@
-[{"op":"add","path":"/upgradeStages/2/interactData/initialRecipeUnlocks/-","value":"zorcanaddon"},{"op":"add","path":"/upgradeStages/2/addonConfig/usesAddons/-","value":{"name":"zorcanAddon","position":[0,3],"addonData":{"animationState":"zorcan","interactData":{"filter":["craftinganvil","craftinganvil2","craftinganvil3","craftingzorcan"]}}}},{"op":"add","path":"/upgradeStages/2/learnBlueprintsOnPickup/-","value":"zorcanaddon"}]
+[
+  { "op": "add", "path": "/upgradeStages/2/interactData/initialRecipeUnlocks/-", "value": "zorcanaddon" },
+  { "op": "add", "path": "/upgradeStages/2/addonConfig/usesAddons/-", "value": {
+    "name": "zorcanAddon",
+    "position": [ 0, 3 ],
+    "addonData": {
+      "animationState": "zorcan",
+      "interactData": {
+        "filter": [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingzorcan" ]
+      }
+    }
+  }},
+  { "op": "add", "path": "/upgradeStages/2/learnBlueprintsOnPickup/-", "value": "zorcanaddon" }
+]

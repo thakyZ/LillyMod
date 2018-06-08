@@ -12,26 +12,12 @@
   "femaleFrames": "head.png",
   "mask": "mask.png",
   "statusEffects": [
-    {
-      "stat": "powerMultiplier",
-      "baseMultiplier": 3.05
-    },
-    {
-      "stat": "protection",
-      "amount": 40
-    },
-    {
-      "stat": "maxEnergy",
-      "amount": 44
-    },
-    {
-      "stat": "maxHealth",
-      "amount": 44
-    }
+    { "stat": "powerMultiplier", "baseMultiplier": 3.05 },
+    { "stat": "protection", "amount": 40 },
+    { "stat": "maxEnergy", "amount": 44 },
+    { "stat": "maxHealth", "amount": 44 }
   ],
-  "itemTags": [
-    "zorabianarmor"
-  ],
+  "itemTags": [ "zorabianarmor" ],
   "colorOptions": [
     // RED
     { "ffca8a": "f2f2f2", "e0975c": "d9d9d9", "a85636": "bfbfbf", "6f2919": "a6a6a6", "a8e6e2": "f4988c", "4facb2": "d93a3a", "30636c": "932625", "233c43": "601119" },

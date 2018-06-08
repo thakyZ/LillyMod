@@ -1,1 +1,5 @@
-[{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zorokineptichead"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zorokinepticchest"}},{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"zorokinepticpants"}}]
+[
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "zorokinepticanklet" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "zorokinepticlens"} },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "zorokinepticpendant"} }
+]

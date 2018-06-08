@@ -1,1 +1,13 @@
-{"input":[{"item":"zeraalloy","count":2},{"item":"wire","count":5},{"item":"siliconboard","count":1},{"item":"livingroot","count":1},{"item":"venomsample","count":1},{"item":"scorchedcore","count":1},{"item":"cryonicextract","count":1}],"output":{"item":"eppcapacitor","count":1},"groups":["craftingfurnace3","ingredients","all"]}
+{
+  "input": [
+    { "item": "zeraalloy", "count": 2 },
+    { "item": "wire", "count": 5 },
+    { "item": "siliconboard", "count": 1 },
+    { "item": "livingroot", "count": 1 },
+    { "item": "venomsample", "count": 1 },
+    { "item": "scorchedcore", "count": 1 },
+    { "item": "cryonicextract", "count": 1 }
+  ],
+  "output": { "item": "eppcapacitor", "count": 1 },
+  "groups": [ "craftingfurnace3", "ingredients", "all" ]
+}

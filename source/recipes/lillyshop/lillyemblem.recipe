@@ -1,1 +1,7 @@
-{"input":[{"item":"paper","count":20}],"output":{"item":"lillyemblem","count":1},"groups":["lillyshop","craftingfurniture2","decoration","all"]}
+{
+  "input": [
+    { "item": "paper", "count": 5 }
+  ],
+  "output": { "item":"lillyemblem", "count": 1 },
+  "groups": [ "lillyshop", "craftingfurniture2", "decoration", "all" ]
+}
