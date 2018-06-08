@@ -1,0 +1,15 @@
+{
+  "itemName" : "panelledgirder",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "panelledgirder.png",
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Panneled Girder",
+  "glitchDescription" : "Impressed. This reinforced metal girder is very strong.",
+  "floranDescription" : "Cold metal girderss.",
+  "novakidDescription" : "A strong lookin' metal girder.",
+
+  "materialId" : 52116,
+  "learnBlueprintsOnPickup" : [ "panelledgirder" ]
+}

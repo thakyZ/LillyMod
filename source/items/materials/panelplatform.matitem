@@ -1,0 +1,12 @@
+{
+  "itemName" : "panelplatform",
+  "rarity" : "Common",
+  "price" : 10,
+  "inventoryIcon" : "panelplatform.png",
+  "description" : "Metal panels used to protect and hide sensitive electronics.",
+  "shortdescription" : "Panel Platform",
+
+  "materialId" : 52115,
+
+  "learnBlueprintsOnPickup" : [ "panelplatform" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "slopedwallpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "slopedwallpanelicon.png",
+  "description" : "Metal panels for walls. Try painting it for different styles!.",
+  "shortdescription" : "Sloped Wallpanel",
+
+  "materialId" : 52113
+}
