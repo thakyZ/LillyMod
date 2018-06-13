@@ -1,4 +1,4 @@
-# LillyMod ![Lilly Emblem](https://raw.githubusercontent.com/thakyZ/LillyMod/master/objects/lilly/emblem/lillyemblembig.png)
+# LillyMod ![Lilly Emblem](https://gitlab.com/thakyZ/LillyMod/raw/master/images/LillyModLogo.png)
 This is a mod for Starbound. It contains an asorted amount of changes and additions to Starbound.
 Lilly is my cat who is a 7 year old calico, and she is so cute I just had to name a mod after her.
 
