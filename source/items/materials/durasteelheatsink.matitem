@@ -1,0 +1,16 @@
+{
+  "itemName" : "durasteelheatsink",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "durasteelheatsink.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Durasteel Heat Sink",
+  "description" : "Star ship heat sink, for shedding excess heat.",
+  "glitchdescription" : "Statement. Star ship heat sink.",
+  "florandescription" : "Warm.",
+  "learnBlueprintsOnPickup" : [
+    "durasteelheatsink"
+  ],
+
+  "materialId" : 52117
+}

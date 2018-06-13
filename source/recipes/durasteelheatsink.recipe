@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "durasteelheatsink",
+    "count" : 20
+  },
+  "groups" : [ "mod", "LM_mod", "craftingfurniture2", "materials", "all" ]
+}
