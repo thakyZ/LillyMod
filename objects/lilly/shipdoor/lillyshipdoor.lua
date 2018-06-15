@@ -19,9 +19,9 @@ function update(dt)
 
   if #players > 0 and animator.animationState("portal") == "off" then
     animator.setAnimationState("portal", "open")
-    animator.playSound("on");
+    animator.playSound("open");
   elseif #players == 0 and animator.animationState("portal") == "on" then
     animator.setAnimationState("portal", "close")
-    animator.playSound("off");
+    animator.playSound("close");
   end
 end

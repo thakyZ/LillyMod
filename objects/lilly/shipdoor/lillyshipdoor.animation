@@ -99,6 +99,8 @@
 
   "sounds" : {
     "on" : [],
-    "off" : []
+    "off" : [],
+    "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+    "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
   }
 }
