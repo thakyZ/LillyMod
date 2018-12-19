@@ -1,12 +1,18 @@
 {
   "materialId" : 52115,
   "materialName" : "panelplatform",
-  "collisionKind" : "platform",
   "itemDrop" : "panelplatform",
+
+  "collisionKind" : "platform",
   "shortdescription" : "Panel Platform",
   "description" : "A hardened aerogel platform, suitable for cookie jars and people alike.",
+  "glitchDescription" : "Happy. This platform will suit my needs!",
+  "floranDescription" : "Ssmels like metal.",
+  "novakidDescription" : "Ol' platform fit for a floor!",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
-  "category": "supports",
+  "health" : 8,
+  "category" : "supports",
+
 
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {
