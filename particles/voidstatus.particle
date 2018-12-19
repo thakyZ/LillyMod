@@ -1,20 +1,19 @@
 {
-  "kind": "voidstatus",
-  "definition": {
-    "type": "ember",
-    "color": [200, 200, 200],
-    "light": [25, 25, 25],
-    "position": [0, 0],
-    "initialVelocity": [0, 0],
+  "kind" : "voidstatus",
+  "definition" : {
+    "type" : "ember",
+    "color" : [200, 200, 200, 255],
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
     "finalVelocity" : [0, 0],
-    "destructionAction": "shrink",
-    "destructionTime": 4,
+    "destructionAction" : "shrink",
+    "destructionTime" : 4,
     "layer" : "middle",
-    "fullbright": true,
-    "variance": {
+    "fullbright" : true,
+    "variance" : {
       "finalVelocity" : [1.5, 1.5],
-      "position": [1, 1],
-      "size": 0.5
+      "position" : [1, 1],
+      "size" : 0.5
     }
   }
 }
