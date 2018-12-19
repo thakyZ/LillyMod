@@ -1,9 +1,9 @@
 require "/scripts/util.lua"
 
 function init()
-  animator.setParticleEmitterOffsetRegion("sparks", mcontroller.boundBox())
-  animator.setParticleEmitterActive("sparks", true)
-  effect.setParentDirectives("fade=333333=0.25")
+  animator.setParticleEmitterOffsetRegion("voidstatus", mcontroller.boundBox())
+  animator.setParticleEmitterActive("voidstatus", true)
+  effect.setParentDirectives("fade=DDDDFF=0.25;border=1;a0FFFF30;00000000?multiply=ffffff60")
 
   script.setUpdateDelta(5)
 
