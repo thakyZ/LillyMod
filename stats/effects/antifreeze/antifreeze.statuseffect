@@ -1,6 +1,6 @@
 {
   "name": "antifreeze",
-  "effectConfig": {},
+  "effectConfig": { },
   "scripts": [ "antifreeze.lua" ],
   "label": "Anti Freeze",
   "icon": "/interface/statuses/antidote.png"

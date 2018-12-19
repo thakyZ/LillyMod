@@ -1,6 +1,6 @@
 {
   "name":"ghost",
-  "effectConfig": {},
+  "effectConfig": { },
   "defaultDuration": 10,
   "scripts": [ "ghost.lua" ],
   "label": "Ghostly",
