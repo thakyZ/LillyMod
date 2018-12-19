@@ -1,0 +1,28 @@
+^#EA9931;A mod about a little kitty named Lilly, and other things.^#FFFFFF;
+
+This is a mod for Starbound. It contains an assorted amount of changes and additions to Starbound.
+Lilly is my cat who is a 7 year old calico, and she is so cute I just had to name a mod after her.
+
+This mod contains armor, weapons and objects. The armor is an end tier armor set and is titled, Zorabian Armor, this armor is not based off of anything, but is Thaky's own creation. The armor has been balanced and with other mods, such as Frackin' Universe, it does change to not being an end tier armor set. There is an admin version of the armor set and is only able to be spawned in via admin mode (more details in the item list for this mod).
+
+The Weapons in this mod is first the Void Excalibur, which is a top tier sword that has a unique texture and not so unique secondary ability; the secondary abality is planned on changing in the future. The second weapon is the Zorabian Assault rifle, it is a high powered rifle, and it too has a secondary ability already in the game and is going to be changed in the future.
+
+Other miscellaneous items are the Zorcan Crystal, which is a element created by infusion of all tier 5 ores and solarium. This item is used only for creating Zorabian products like the Void Excalibur or Zorabian Armor.
+
+A new pet texture to the cat provides Thaky's kitty, Lilly to be able to be a pet. If you want to have Lilly specifically you must download the Purchasable Pets mod. With the Purchasable Pets mod being an optional mod, DO NOT use the Lilly's Pet House if you are going to not get the Purchasable Pets mod.
+
+This also adds some furniture like a painting of Lilly, custom teleporters, an ancient torch stand, Lilly's Emblem, and gravestones. These gravestones consist of my previous real life cats Oscar and Wilson.
+
+Some other objects that have been added, is a painting of Lilly, a emblem of Lilly's paw (not actually Lilly's paw), and some other hidden objects that have yet to be implemented.
+
+^#A451C4;Item List:^#FFFFFF; ^#9BBA3D;https://files.voidinc.net/games/starbound/lillymod-item-list/^#FFFFFF;
+
+^#A451C4;Chucklefish Forums:^#FFFFFF; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod.4686/^#FFFFFF;
+^#A451C4;Steam Workshop:^#FFFFFF; ^#9BBA3D;https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200^#FFFFFF;
+
+If you would like to have Lilly as a purchasable pet you can download "^#0080FF;LillyMod Purchasable Pets Patch^#FFFFFF;"
+^#A451C4;Chucklefish Forums:^#FFFFFF; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/^#FFFFFF;
+^#A451C4;Steam Workshop:^#FFFFFF; ^#9BBA3D;https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078^#FFFFFF;
+
+Fully compatible with Frackin' Universe
+^#9BBA3D;https://i.imgur.com/1TfuM5F.png^#FFFFFF;
