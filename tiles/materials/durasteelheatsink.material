@@ -2,13 +2,16 @@
   "materialId" : 52117,
   "materialName" : "durasteelheatsink",
   "itemDrop" : "durasteelheatsink",
+
+
   "shortdescription" : "Durasteel Heat Sink",
   "description" : "Star ship heat sink, for shedding excess heat.",
   "glitchDescription" : "Statement. Star ship heat sink.",
   "floranDescription" : "Warm.",
+  "novakidDescription" : "Ol' A very nice heat sink.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "health" : 16,
-  "category": "materials",
+  "category" : "materials",
   "blocksLiquidFlow" : false,
 
   "renderTemplate" : "/tiles/pipetemplate.config",

@@ -1,16 +1,18 @@
 {
   "materialId" : 52114,
   "materialName" : "slopedwallpanelsolid",
-  "particleColor" : [89, 127, 52, 255],
   "itemDrop" : "slopedwallpanelsolid",
-  "description" : "A sloped wallpanel. Try painting it for different styles!",
-  "shortdescription" : "Sloped Wallpanel",
+
+
+  "shortdescription" : "Solid Sloped Wallpanel",
+  "description" : "A solid sloped wallpanel.",
   "glitchDescription" : "Happy. This wall will suit my needs!",
   "floranDescription" : "Ssmels like metal.",
   "novakidDescription" : "Ol' panel fit for a wall!",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 8,
   "category" : "materials",
+  "blocksLiquidFlow" : false,
 
   "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
