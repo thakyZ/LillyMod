@@ -1,0 +1,526 @@
+{
+  "kind" : "voidplasma",
+  "elementalType" : "voidplasma",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL PARTICLES
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL PARTICLES
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "wooden" : {
+      "hit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL PARTICLES
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_wood1.ogg", "/sfx/melee/kill_wood2.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "stone" : {
+      "hit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL PARTICLES
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            },
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [200, 200, 200, 255],
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "shrink",
+              "fullbright" : true,
+              "variance" : {
+                "finalVelocity" : [1.5, 1.5],
+                "position" : [1, 1],
+                "size" : 0.5
+              }
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_stone1.ogg", "/sfx/melee/kill_stone2.ogg", "/sfx/melee/kill_stone3.ogg", "/sfx/melee/kill_stone4.ogg", "/sfx/melee/kill_stone5.ogg" ],
+        "particles" : [
+          [
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
