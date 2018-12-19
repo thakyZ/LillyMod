@@ -6,8 +6,9 @@
     "position" : [0, 0],
     "initialVelocity" : [0, 0],
     "finalVelocity" : [0, 0],
+    "timeToLive" : 0.7,
     "destructionAction" : "shrink",
-    "destructionTime" : 4,
+    "destructionTime" : 0.5,
     "layer" : "middle",
     "fullbright" : true,
     "variance" : {
