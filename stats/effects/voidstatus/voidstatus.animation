@@ -4,18 +4,20 @@
       "enabled": true,
       "emissionRate": 5,
       "particles": [
-        { "particle": "voidexcalibur" },
-        { "particle": "voidexcalibur2" }
+        { "particle": "voidstatus" },
+        { "particle": "voidstatus" }
       ]
     }
   },
+
   "lights": {
     "glow": {
       "active": true,
-      "position": [ 0, 0 ],
-      "color": [ 100, 50, 150 ]
+      "position": [0, 0],
+      "color": [50, 50, 50]
     }
   },
+
   "sounds": {
     "bolt": [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
   }
