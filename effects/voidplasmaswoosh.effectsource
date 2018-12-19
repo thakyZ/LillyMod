@@ -20,7 +20,7 @@
       [ "voidswoosh3" ],
       [ "voidswoosh4" ]
     ],
-    "sounds":[[]],
+    "sounds":[ [ ] ],
     "stop": {
       "particles":
       [
