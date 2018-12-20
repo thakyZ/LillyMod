@@ -1,0 +1,29 @@
+{
+  "kind" : "voiddust",
+  "definition" : {
+    "duration" : 1.5,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "voidswoosh1", "voidswoosh2", "voidswoosh3" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "voidswoosh1", "voidswoosh2", "voidswoosh3" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "voidswoosh1", "voidswoosh2", "voidswoosh3", "voidswoosh1", "voidswoosh2", "voidswoosh3" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

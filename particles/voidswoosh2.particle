@@ -1,21 +1,20 @@
 {
-  "kind": "voidswoosh2",
-  "definition": {
-    "type": "ember",
-    "color": [ 200, 200, 200 ],
-    "light": [ 100, 100, 100 ],
-    "position": [ 0, 0 ],
-    "initialVelocity": [ 0, 0 ],
-    "fade": 0.3,
-    "destructionAction": "shrink",
-    "destructionTime": 1,
-    "size": 0.3,
-    "timeToLive": 1,
-    "fullbright": true,
-    "variance": {
-      "initialVelocity": [ 2.0, 2.0 ],
-      "size": 1,
-      "position": [ 0, 0 ]
+  "kind" : "voidswoosh2",
+  "definition" : {
+    "type" : "ember",
+    "color" : [200, 200, 200, 255],
+    "position" : [0, 0],
+    "initialVelocity" : [0.2, -5],
+    "finalVelocity" : [0.1, -10],
+    "approach" : [0, 10],
+    "destructionAction" : "shrink",
+    "destructionTime" : 2,
+    "size" : 0.6,
+    "timeToLive" : 1,
+    "fade" : 0.5,
+    "fullbright" : true,
+    "variance" : {
+      "initialVelocity" : [0, 1]
     }
   }
 }
