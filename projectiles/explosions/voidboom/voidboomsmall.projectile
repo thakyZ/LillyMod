@@ -1,0 +1,17 @@
+{
+  "projectileName" : "voidboomsmall",
+  "image" : "voidboomsmall.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "fullbright" : true,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : true,
+  "lightColor" : [50, 50, 50],
+  "damagePoly" : [ [-4, 0], [-3, -3], [0, -4], [3, -3], [4, 0], [3, 3], [0, 4], [-3, 3] ],
+  "universalDamage" : true,
+  "damageKind" : "default"
+}
