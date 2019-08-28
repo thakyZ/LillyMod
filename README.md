@@ -27,12 +27,13 @@ Some other hidden objects that have yet to be implemented.
 ![Zorcan Crystal](https://raw.githubusercontent.com/thakyZ/LillyMod/media/image5.png)   
 ![Specialized Materials](https://raw.githubusercontent.com/thakyZ/LillyMod/media/image6.png)
 
-**Chucklefish Forums:** https://community.playstarbound.com/resources/lillymod.4686/   
-**Steam Workshop:** https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200
+**Steam Workshop:** https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200   
+**Chucklefish Forums:** https://community.playstarbound.com/resources/lillymod.4686/
 
-If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"
-**Chucklefish Forums:** https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/
-**Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078
+If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"   
+**Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078   
+**Chucklefish Forums:** https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/   
+**Github:** https://github.com/thakyZ/LillyMod_PurchasablePets   
 
 Fully compatible with Frackin' Universe   
 ![Won't Break Frackin Universe](https://i.imgur.com/1TfuM5F.png)

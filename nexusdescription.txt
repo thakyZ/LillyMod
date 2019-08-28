@@ -17,21 +17,14 @@ Some other objects that have been added, is a painting of Lilly, a emblem of Lil
 
 [B]Item List:[/B] [URL]https://files.voidinc.net/games/starbound/lillymod-item-list/[/URL]
 
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image0.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image1.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image2.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image3.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image4.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image5.png[/IMG]
-[IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image6.png[/IMG]
-
-[B]Steam Workshop:[/B] [URL]https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200[/URL]
-[B]Gitlab Repo:[/B] [URL]https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod[/URL]
+[b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/lillymod.4686/[/url]
+[b]Steam Workshop Page:[/b] [url]http://steamcommunity.com/sharedfiles/filedetails/?id=729548200[/url]
+[b]Github Repo:[/b] [url]https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod[/url]
 
 If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"
-[B]SteamWorkshop:[/B] [URL]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/URL]
-[B]Chucklefish Forums:[/B] [URL]https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/[/URL]
-[B]Github Repo:[/B] [URL]https://github.com/thakyZ/LillyMod_PurchasablePets[/URL]
+[b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/[/url]
+[b]Steam Workshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/url]
+[b]Github Repo:[/b] [url]https://github.com/thakyZ/LillyMod_PurchasablePets[/url]
 
 Fully compatible with Frackin' Universe
 [IMG]https://i.imgur.com/1TfuM5F.png[/IMG]

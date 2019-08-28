@@ -1,4 +1,4 @@
-^#EA9931;A mod about a little kitty named Lilly, and other things.^#FFFFFF;
+^#EA9931;A mod about a little kitty named Lilly, and other things.^reset;
 
 This is a mod for Starbound. It contains an assorted amount of changes and additions to Starbound.
 Lilly is my cat who is a 7 year old calico, and she is so cute I just had to name a mod after her.
@@ -15,14 +15,16 @@ This also adds some furniture like a painting of Lilly, custom teleporters, an a
 
 Some other objects that have been added, is a painting of Lilly, a emblem of Lilly's paw (not actually Lilly's paw), and some other hidden objects that have yet to be implemented.
 
-^#A451C4;Item List:^#FFFFFF; ^#9BBA3D;https://files.voidinc.net/games/starbound/lillymod-item-list/^#FFFFFF;
+^#A451C4;Item List:^reset; ^#9BBA3D;https://files.voidinc.net/games/starbound/lillymod-item-list/^reset;
 
-^#A451C4;Chucklefish Forums:^#FFFFFF; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod.4686/^#FFFFFF;
-^#A451C4;Steam Workshop:^#FFFFFF; ^#9BBA3D;https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200^#FFFFFF;
+^#A451C4;Steam Workshop:^reset; ^#9BBA3D;https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200^reset;
+^#A451C4;Chucklefish Forums:^reset; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod.4686/^reset;
+^#A451C4;Github Repo:^reset; ^#9BBA3D;https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod^reset;
 
-If you would like to have Lilly as a purchasable pet you can download "^#0080FF;LillyMod Purchasable Pets Patch^#FFFFFF;"
-^#A451C4;Chucklefish Forums:^#FFFFFF; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/^#FFFFFF;
-^#A451C4;Steam Workshop:^#FFFFFF; ^#9BBA3D;https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078^#FFFFFF;
+If you would like to have Lilly as a purchasable pet you can download "^#0080FF;LillyMod Purchasable Pets Patch^reset;"
+^#A451C4;Steam Workshop:^reset; ^#9BBA3D;https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078^reset;
+^#A451C4;Chucklefish Forums:^reset; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/^reset;
+^#A451C4;Github Repo:^reset; ^#9BBA3D;https://github.com/thakyZ/LillyMod_PurchasablePets^reset;
 
 Fully compatible with Frackin' Universe
-^#9BBA3D;https://i.imgur.com/1TfuM5F.png^#FFFFFF;
+^#9BBA3D;https://i.imgur.com/1TfuM5F.png^reset;

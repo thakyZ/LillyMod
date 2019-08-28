@@ -1,5 +1,3 @@
-[img]https://raw.githubusercontent.com/thakyZ/LillyMod/media/LillyModLogo-small.png[/img]
-
 This is a mod for Starbound. It contains an assorted amount of changes and additions to Starbound.
 Lilly is my cat who is a 7 year old calico, and she is so cute I just had to name a mod after her.
 
@@ -26,11 +24,12 @@ Some other objects that have been added, is a painting of Lilly, a emblem of Lil
 [img]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image6.png[/img]
 
 [b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/lillymod.4686/[/url]
-[b]Steam Workshop:[/b] [url]https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200[/url]
+[b]Gitlab Repo:[/b] [url]https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod[/url]
 
 If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"
+[b]SteamWorkshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/url]
 [b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/[/url]
-[b]Steam Workshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/url]
+[b]Github Repo:[/b] [url]https://github.com/thakyZ/LillyMod_PurchasablePets[/url]
 
 Fully compatible with Frackin' Universe
 [img]https://i.imgur.com/1TfuM5F.png[/img]
