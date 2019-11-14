@@ -19,9 +19,9 @@ Some other objects that have been added, is a painting of Lilly, a emblem of Lil
 
 ^#A451C4;Steam Workshop:^reset; ^#9BBA3D;https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200^reset;
 ^#A451C4;Chucklefish Forums:^reset; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod.4686/^reset;
-^#A451C4;Github Repo:^reset; ^#9BBA3D;https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod^reset;
+^#A451C4;Github Repo:^reset; ^#9BBA3D;https://github.com/thakyZ/LillyMod^reset;
 
-If you would like to have Lilly as a purchasable pet you can download "^#0080FF;LillyMod Purchasable Pets Patch^reset;"
+If you would like to have Lilly as a purchasable pet you can download \"^#0080FF;LillyMod Purchasable Pets Patch^reset;\"
 ^#A451C4;Steam Workshop:^reset; ^#9BBA3D;https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078^reset;
 ^#A451C4;Chucklefish Forums:^reset; ^#9BBA3D;https://community.playstarbound.com/resources/lillymod-purchasable-pets-patch.5620/^reset;
 ^#A451C4;Github Repo:^reset; ^#9BBA3D;https://github.com/thakyZ/LillyMod_PurchasablePets^reset;

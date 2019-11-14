@@ -26,7 +26,7 @@ Some other objects that have been added, is a painting of Lilly, a emblem of Lil
 [IMG]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image6.png[/IMG]
 
 [B]Steam Workshop:[/B] [URL]https://steamcommunity.com/sharedfiles/itemedittext/?id=729548200[/URL]
-[B]Gitlab Repo:[/B] [URL]https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod[/URL]
+[B]Github Repo:[/B] [URL]https://github.com/thakyZ/LillyMod[/URL]
 
 If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"
 [B]SteamWorkshop:[/B] [URL]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/URL]

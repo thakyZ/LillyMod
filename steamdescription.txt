@@ -24,7 +24,7 @@ Some other objects that have been added, is a painting of Lilly, a emblem of Lil
 [img]https://raw.githubusercontent.com/thakyZ/LillyMod/media/image6.png[/img]
 
 [b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/lillymod.4686/[/url]
-[b]Gitlab Repo:[/b] [url]https://gitlab.com/thakyZ/LillyMod]thakyZ/LillyMod[/url]
+[b]Github Repo:[/b] [url]https://github.com/thakyZ/LillyMod[/url]
 
 If you would like to have Lilly as a purchasable pet you can download "LillyMod Purchasable Pets Patch"
 [b]SteamWorkshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1595365078[/url]
