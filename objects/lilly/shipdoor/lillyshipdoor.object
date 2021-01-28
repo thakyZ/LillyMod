@@ -22,7 +22,7 @@
       "spaceScan" : 0.1,
 
       "anchors" : [ "bottom" ],
-      "direction" : "right",
+      "direction" : "right"
     }
   ],
 
@@ -30,7 +30,7 @@
   "allowBackgroundDoorConnection" : true,
   "mouthPosition" : [0, -1], //Used to determine the teleport position of the door
   "inputNodes" : [ [-2, 0], [-2, 2] ],
-  "outputNodes" : [ [1, 4] ]
+  "outputNodes" : [ [1, 4] ],
 
   "animation" : "/objects/lilly/shipdoor/lillyshipdoor.animation",
   "animationParts" : {

@@ -1,23 +1,23 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "portal" : {
-        "default" : "off",
+      "doorState" : {
+        "default" : "closed",
         "states" : {
-          "off" : {},
-          "on" : {},
-          "open" : {
-            "frames" : 4,
-            "cycle" : 0.3,
+          "opening" : {
+            "frames" : 3,
+            "cycle" : 0.15,
             "mode" : "transition",
-            "transition" : "on"
+            "transition" : "open"
           },
-          "close" : {
-            "frames" : 4,
-            "cycle" : 0.3,
+          "open" : {},
+          "closing" : {
+            "frames" : 3,
+            "cycle" : 0.15,
             "mode" : "transition",
-            "transition" : "off"
-          }
+            "transition" : "closed"
+          },
+          "closed" : {}
         }
       }
     },
@@ -25,36 +25,29 @@
     "parts" : {
       "bg" : {
         "properties" : {
-          "centered" : false
+          "centered" : false,
+          "fullbright": true
         },
-
         "partStates" : {
-          "portal" : {
-            "off" : {
+          "doorState" : {
+            "opening" : {
               "properties" : {
-                "image" : "<partImage>:<color>.off",
-                "fullbright" : true
+                "image" : "<partImage>:<color>.opening.<frame>"
               }
             },
-
-            "on" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.on",
-                "fullbright" : true
-              }
-            },
-
             "open" : {
               "properties" : {
-                "image" : "<partImage>:<color>.open.<frame>",
-                "fullbright" : true
+                "image" : "<partImage>:<color>.open"
               }
             },
-
-            "close" : {
+            "closing" : {
               "properties" : {
-                "image" : "<partImage>:<color>.close.<frame>",
-                "fullbright" : true
+                "image" : "<partImage>:<color>.closing.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.closed"
               }
             }
           }
@@ -62,33 +55,28 @@
       },
       "fg" : {
         "properties" : {
-          "centered" : false,
-          "zLevel" : 1
+          "centered" : false
         },
-
         "partStates" : {
-          "portal" : {
-            "off" : {
+          "doorState" : {
+            "opening" : {
               "properties" : {
-                "image" : "<partImage>:<color>.off"
+                "image" : "<partImage>:<color>.opening.<frame>"
               }
             },
-
-            "on" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.on"
-              }
-            },
-
             "open" : {
               "properties" : {
-                "image" : "<partImage>:<color>.open.<frame>"
+                "image" : "<partImage>:<color>.open"
               }
             },
-
-            "close" : {
+            "closing" : {
               "properties" : {
-                "image" : "<partImage>:<color>.close.<frame>"
+                "image" : "<partImage>:<color>.closing.<frame>"
+              }
+            },
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.closed"
               }
             }
           }
@@ -98,9 +86,7 @@
   },
 
   "sounds" : {
-    "on" : [],
-    "off" : [],
-    "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
-    "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    "open" : [],
+    "close" : []
   }
 }
