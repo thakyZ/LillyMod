@@ -2,13 +2,13 @@
   "objectName" : "lillyshipdoor",
   "colonyTags" : ["lilly","misc"],
   "objectType" : "teleporter",
-  "rarity" : "Legendary",
+  "rarity" : "Common",
   "description" : "A door that is also a teleporter!",
   "shortdescription" : "Lilly Co. Ship Door",
-  "price" : 3000,
+  "price" : 80,
   "printable" : true,
 
-  "category" : "teleporter",
+  "category" : "door",
 
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/remoteteleporter.config",
@@ -16,19 +16,21 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "lillyshipdoor.png:<color>.<frame>", "fullbright" : true }, { "image" : "lillyshipdoorlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "lillyshipdoor.png:<color>", "fullbright" : true }, { "image" : "lillyshipdoorlit.png:<color>" } ],
       "imagePosition" : [-16, 0],
       "animationPosition" : [-16, 0],
       "spaceScan" : 0.1,
 
       "anchors" : [ "bottom" ],
       "direction" : "right",
-
-      "detectArea" : [ [-2, 0], [2, 5] ]
     }
   ],
 
-  "teleporterFootPosition" : [0, 0],
+  "detectArea" : [ [-6, 0], [7, 6] ],
+  "allowBackgroundDoorConnection" : true,
+  "mouthPosition" : [0, -1], //Used to determine the teleport position of the door
+  "inputNodes" : [ [-2, 0], [-2, 2] ],
+  "outputNodes" : [ [1, 4] ]
 
   "animation" : "/objects/lilly/shipdoor/lillyshipdoor.animation",
   "animationParts" : {
@@ -36,6 +38,5 @@
     "fg" : "lillyshipdoorlit.png"
   },
 
-  "scripts" : [ "/objects/lilly/shipdoor/lillyshipdoor.lua" ],
-  "scriptDelta" : 20
+  "scripts" : [ "/objects/lilly/shipdoor/lillyshipdoor.lua" ]
 }
