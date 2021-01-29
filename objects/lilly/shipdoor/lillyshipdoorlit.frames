@@ -3,24 +3,21 @@
     "size" : [32, 40],
     "dimensions" : [4, 3],
     "names" : [
-      [ "default.closed", "default.opening.3", "default.opening.2", "default.opening.1" ],
-      [ "blue.closed", "blue.opening.3", "blue.opening.2", "blue.opening.1" ],
-      [ "orange.closed", "orange.opening.3", "orange.opening.2", "orange.opening.1" ]
+      [ "default.closed", "default.opening.1", "default.opening.2", "default.open" ],
+      [ "blue.closed", "blue.opening.1", "blue.opening.2", "blue.open" ],
+      [ "orange.closed", "orange.opening.1", "orange.opening.2", "orange.open" ]
     ]
   },
 
   "aliases" : {
     "default.default" : "default.closed",
-    "default.closing.1" : "default.opening.3",
-    "default.closing.2" : "default.opening.2",
-    "default.closing.3" : "default.opening.1",
+    "default.closing.1" : "default.opening.2",
+    "default.closing.2" : "default.opening.1",
     "blue.blue" : "blue.closed",
-    "blue.closing.1" : "blue.opening.3",
-    "blue.closing.2" : "blue.opening.2",
-    "blue.closing.3" : "blue.opening.1",
+    "blue.closing.1" : "blue.opening.2",
+    "blue.closing.2" : "blue.opening.1",
     "orange.orange" : "orange.closed",
-    "orange.closing.1" : "orange.opening.3",
-    "orange.closing.2" : "orange.opening.2",
-    "orange.closing.3" : "orange.opening.1"
+    "orange.closing.1" : "orange.opening.2",
+    "orange.closing.2" : "orange.opening.1"
   }
 }

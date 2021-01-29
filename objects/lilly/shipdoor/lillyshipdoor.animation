@@ -5,14 +5,14 @@
         "default" : "closed",
         "states" : {
           "opening" : {
-            "frames" : 3,
+            "frames" : 2,
             "cycle" : 0.15,
             "mode" : "transition",
             "transition" : "open"
           },
           "open" : {},
           "closing" : {
-            "frames" : 3,
+            "frames" : 2,
             "cycle" : 0.15,
             "mode" : "transition",
             "transition" : "closed"
